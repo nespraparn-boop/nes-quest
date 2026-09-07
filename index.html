@@ -44,7 +44,7 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
 <div class="toast" id="toast"></div>
 <div class="app">
 <header class="top">
-  <div class="brand"><div class="logo">✏️</div><div><h1>นักรบดินสอ 2B : NES Quest</h1><small>ภารกิจสอบของเนส</small></div></div>
+  <div class="brand"><div class="logo">✏️</div><div><h1>นักรบดินสอ 2B : NES Quest</h1><small>NES Quest • Level & Medal Edition</small></div></div>
   <div class="pill"><span id="xpTop">0</span> XP</div>
 </header>
 
@@ -56,6 +56,7 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
     <div class="row">
       <button class="btn primary" onclick="startQuick(20)">⚔️ ตะลุย 20 ข้อ</button>
       <button class="btn" onclick="startMock(50)">👑 Boss Exam 50</button>
+      <button class="btn orange" onclick="startPrimaryBoss(50)">🏫 Boss เอกประถม 50</button>
     </div>
   </div>
   <div class="grid">
@@ -63,6 +64,11 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
     <div class="card"><div class="muted">Streak</div><div class="stat"><span id="streakStat">0</span> 🔥</div></div>
     <div class="card"><div class="muted">ทำไปแล้ว</div><div class="stat"><span id="doneStat">0</span> ข้อ</div></div>
     <div class="card"><div class="muted">ความแม่นยำ</div><div class="stat"><span id="accStat">0</span>%</div></div>
+  </div>
+  <div class="section-title"><h3>เหรียญของเนส</h3><span class="badge" id="levelBadge">Level 1</span></div>
+  <div class="card">
+    <div id="medals" class="row"></div>
+    <div class="muted tiny" style="margin-top:10px">ปลดล็อกเหรียญจาก XP, Streak, Boss และความแม่นยำ</div>
   </div>
   <div class="section-title"><h3>ภารกิจวันนี้</h3><span class="badge" id="dailyBadge">0/20</span></div>
   <div class="card quest">
@@ -107,6 +113,12 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
     <div class="card"><h3>🏫 เอกประถม</h3><p class="muted">หลักสูตร การสอน การวัดผล และการจัดการเรียนรู้</p><button class="btn ghost" onclick="startCategory('เอกประถม/การจัดการเรียนรู้',20)">ฝึก</button></div>
     <div class="card"><h3>🌼 อุบล เขต 1</h3><p class="muted">ข้อมูลพื้นที่ จังหวัด และสำนักงานเขต</p><button class="btn ghost" onclick="startCategory('อุบล เขต 1',20)">ฝึก</button></div>
     <div class="card"><h3>📌 พนักงานราชการ</h3><p class="muted">สิทธิ การลา การจ้าง และระเบียบที่เกี่ยวข้อง</p><button class="btn ghost" onclick="startCategory('พนักงานราชการ',20)">ฝึก</button></div>
+    <div class="card"><h3>🔤 ไทย</h3><p class="muted">ภาษาไทยระดับประถม</p><button class="btn ghost" onclick="startCategory('เอกประถม • ภาษาไทย',20)">ฝึก</button></div>
+    <div class="card"><h3>➗ คณิต</h3><p class="muted">คณิตศาสตร์ระดับประถม</p><button class="btn ghost" onclick="startCategory('เอกประถม • คณิตศาสตร์',20)">ฝึก</button></div>
+    <div class="card"><h3>🔬 วิทย์</h3><p class="muted">วิทยาศาสตร์ระดับประถม</p><button class="btn ghost" onclick="startCategory('เอกประถม • วิทยาศาสตร์',20)">ฝึก</button></div>
+    <div class="card"><h3>🧒 พัฒนาการเด็ก</h3><p class="muted">จิตวิทยาและพัฒนาการวัยเรียน</p><button class="btn ghost" onclick="startCategory('เอกประถม • พัฒนาการเด็ก',20)">ฝึก</button></div>
+    <div class="card"><h3>🧪 วัดผล</h3><p class="muted">การวัดและประเมินผล</p><button class="btn ghost" onclick="startCategory('เอกประถม • วัดผลประเมินผล',20)">ฝึก</button></div>
+    <div class="card"><h3>📚 หลักสูตร</h3><p class="muted">หลักสูตรและการจัดการเรียนรู้</p><button class="btn ghost" onclick="startCategory('เอกประถม • หลักสูตร/การสอน',20)">ฝึก</button></div>
   </div>
   <div class="card" style="margin-top:16px">
     <h3>สำรองข้อมูลความก้าวหน้า</h3><p class="muted">ข้อมูลอยู่ใน iPad เครื่องนี้ ไม่ส่งขึ้นเซิร์ฟเวอร์ คุณสามารถ Export ไว้สำรองแล้ว Import กลับได้</p>
@@ -190,13 +202,13 @@ function renderDashboard(){
   document.getElementById('accStat').textContent=acc;
   document.getElementById('dailyBadge').textContent=`${Math.min(state.dailyCount||0,20)}/20`;
   document.getElementById('dailyBar').style.width=`${Math.min((state.dailyCount||0)/20*100,100)}%`;
-  document.getElementById('bankCount').textContent=`คลังพร้อมเล่น ${BANK.length} ข้อ`;
+  document.getElementById('bankCount').textContent=`คลังพร้อมเล่น ${BANK.length} ข้อ • V2`;
   document.getElementById('xpStat').textContent=state.xp;
   document.getElementById('correctStat').textContent=state.correct;
   document.getElementById('incorrectStat').textContent=state.incorrect;
   document.getElementById('bossStat').textContent=state.bestBoss||0;
   document.getElementById('rankBadge').textContent=rankFor(state.xp);
-  renderCategories(); renderWrong(); renderStats();
+  renderCategories(); renderWrong(); renderStats(); renderMedals();
 }
 function renderCategories(){
   const em=document.getElementById('categoryCards'); if(!em)return;
@@ -221,7 +233,32 @@ function startWrong(){
   if(!pool.length){toast('ยังไม่มีข้อผิดให้แก้มือ 🎉');return}
   closeResult(); startSession(shuffle(pool),'practice','ห้องแก้มือ');
 }
-function startMock(n){startSession(sample(BANK,n),'mock','Boss Exam '+n, n===50?60:90)}
+function primaryPool(){
+  return BANK.filter(q=>q.category && q.category.startsWith('เอกประถม •') && !q.legacy);
+}
+function startPrimaryBoss(n){
+  const pool=primaryPool();
+  if(!pool.length){toast('ยังไม่มีข้อสอบเอกประถม');return}
+  startSession(sample(pool,n),'mock','Boss เอกประถม '+n,n===50?60:90);
+}
+function levelFor(xp){return Math.max(1,Math.floor((xp||0)/300)+1)}
+function medalData(){
+  const acc=state.total?Math.round(state.correct/state.total*100):0;
+  return [
+    ['✏️','เริ่มรบ',state.total>=20],
+    ['🔥','7 Day',state.streak>=7],
+    ['🎯','แม่น 80',state.total>=50&&acc>=80],
+    ['👑','Boss 80',state.bestBoss>=80],
+    ['⚔️','1,000 XP',state.xp>=1000],
+    ['🏆','3,000 XP',state.xp>=3000]
+  ];
+}
+function renderMedals(){
+  const e=document.getElementById('medals'); if(!e)return;
+  e.innerHTML=medalData().map(m=>`<span class="badge" style="opacity:${m[2]?1:.28};font-size:14px">${m[0]} ${m[1]}</span>`).join('');
+  const l=document.getElementById('levelBadge'); if(l)l.textContent='Level '+levelFor(state.xp);
+}
+function startMock(n){startSession(sample(BANK.filter(q=>!q.legacy),n),'mock','Boss Exam '+n, n===50?60:90)}
 function startSession(qs,mode,title,minutes=0){
   if(!qs.length){toast('หมวดนี้ยังไม่มีข้อสอบ');return}
   session={qs,mode,title,index:0,answers:{},marked:{},started:Date.now(),minutes,remaining:minutes*60};
@@ -253,7 +290,7 @@ function renderQuestion(){
   if(session.mode==='practice' && selected){
     const ok=selected===q.answer; f.classList.add('show',ok?'good':'bad');
     const ans=q.options.find(o=>o.key===q.answer);
-    f.innerHTML=`<b>${ok?'✅ ถูกต้อง +10 XP':'❌ ยังไม่ใช่'}</b><div style="margin-top:5px">เฉลย: <b>${q.answer}. ${escapeHtml(ans?ans.text:'')}</b></div>${q.explanation?`<div class="muted" style="margin-top:7px">${escapeHtml(q.explanation)}</div>`:''}<div class="tiny muted" style="margin-top:8px">ที่มา: ${escapeHtml(q.source)}</div>`;
+    f.innerHTML=`<b>${ok?'✅ ถูกต้อง +10 XP':'❌ ยังไม่ใช่'}</b><div style="margin-top:5px">เฉลย: <b>${q.answer}. ${escapeHtml(ans?ans.text:'')}</b></div>${q.explanation?`<div class="muted" style="margin-top:7px">${escapeHtml(q.explanation)}</div>`:''}${q.legacy?`<div class="tiny danger" style="margin-top:7px">⚠️ ข้อนี้มาจากคลังแนวเก่า ควรใช้ฝึกแนวคิด ไม่ใช้จำข้อมูลปัจจุบัน</div>`:''}<div class="tiny muted" style="margin-top:8px">ที่มา: ${escapeHtml(q.source)}</div>`;
   }
   document.getElementById('markText').textContent=session.marked[q.id]?'ยกเลิกธง':'ทำเครื่องหมาย';
   document.getElementById('nextBtn').textContent=session.index===session.qs.length-1?(session.mode==='mock'?'ส่งคำตอบ 👑':'จบภารกิจ ✓'):'ข้อต่อไป →';
