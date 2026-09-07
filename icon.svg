@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<rect width="512" height="512" rx="112" fill="#f4d35e"/>
+<circle cx="256" cy="256" r="170" fill="#fff8dc"/>
+<path d="M135 350 L315 170 L356 211 L176 391 Z" fill="#2b2b2b"/>
+<path d="M315 170 L342 143 L383 184 L356 211 Z" fill="#f28f3b"/>
+<path d="M135 350 L176 391 L118 408 Z" fill="#8d6e63"/>
+<text x="256" y="120" text-anchor="middle" font-family="Arial" font-weight="700" font-size="58" fill="#2b2b2b">2B</text>
+<text x="260" y="455" text-anchor="middle" font-family="Arial" font-weight="700" font-size="50" fill="#2b2b2b">NES</text>
+</svg>
