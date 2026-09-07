@@ -38,13 +38,39 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
 .score-big{font-size:64px;font-weight:1000;text-align:center}.rank{font-size:20px;font-weight:900;text-align:center}.toast{position:fixed;top:18px;left:50%;transform:translateX(-50%);background:#222;color:#fff;padding:10px 14px;border-radius:999px;z-index:80;display:none}.toast.show{display:block}
 .timer{font-variant-numeric:tabular-nums;font-weight:900}.tiny{font-size:12px}.danger{color:var(--bad)}
 @media(min-width:760px){.grid{grid-template-columns:repeat(4,1fr)}.hero h2{font-size:38px}.app{padding-left:24px;padding-right:24px}}
+
+.stage-list{display:grid;gap:12px}
+.stage{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);overflow:hidden}
+.stage summary{list-style:none;cursor:pointer;padding:18px;display:flex;align-items:center;gap:14px}
+.stage summary::-webkit-details-marker{display:none}
+.stage summary .stage-ico{width:56px;height:56px;border-radius:18px;display:grid;place-items:center;font-size:28px;flex:none}
+.stage summary .stage-main{flex:1;min-width:0}
+.stage summary .stage-title{font-size:19px;font-weight:900}
+.stage summary .stage-sub{font-size:13px;color:var(--muted);margin-top:3px}
+.stage summary .chev{font-size:18px;transition:.2s}
+.stage[open] summary .chev{transform:rotate(180deg)}
+.stage-body{border-top:1px solid var(--line);padding:14px;background:#fcfaf6}
+.stage-actions{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.stage-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.stage-option{border:1px solid var(--line);background:#fff;border-radius:16px;padding:12px;text-align:left;cursor:pointer}
+.stage-option b{display:block;margin-bottom:3px}
+.stage-option small{color:var(--muted)}
+.exam-card{background:linear-gradient(135deg,#fff7d2,#fff);border:1px solid #eadfa6}
+.exam-card.mock{background:linear-gradient(135deg,#2b2b2b,#4b4438);color:#fff;border:0}
+.exam-card.mock .muted{color:#eee2ca}
+.interview-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px;margin:10px 0}
+.interview-q{font-weight:800;font-size:18px}
+.interview-tip{display:none;margin-top:10px;padding:12px;border-radius:14px;background:#f6f2e8}
+.interview-tip.show{display:block}
+@media(max-width:620px){.stage-grid{grid-template-columns:1fr}.hero .row .btn{flex:1 1 45%}}
+
 </style>
 </head>
 <body>
 <div class="toast" id="toast"></div>
 <div class="app">
 <header class="top">
-  <div class="brand"><div class="logo">✏️</div><div><h1>นักรบดินสอ 2B : NES Quest</h1><small>NES Quest • ข่าวปิดสนาม Edition</small></div></div>
+  <div class="brand"><div class="logo">✏️</div><div><h1>นักรบดินสอ 2B : NES Quest</h1><small>NES Quest • ภาค ก–ข–ค Edition</small></div></div>
   <div class="pill"><span id="xpTop">0</span> XP</div>
 </header>
 
@@ -54,10 +80,10 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
     <h2 id="hello">วันนี้พร้อมลุยไหม เนส?</h2>
     <p>ฝึกทีละนิด เก็บ XP แก้ข้อผิด • ข่าวปิดสนามคัดข้อมูลถึง 31 ส.ค. 2569 เพื่อสอบ 12 ก.ย. 2569</p>
     <div class="row">
-      <button class="btn primary" onclick="startQuick(20)">⚔️ ตะลุย 20 ข้อ</button>
-      <button class="btn" onclick="startMock(50)">👑 Boss Exam 50</button>
-      <button class="btn orange" onclick="startPrimaryBoss(50)">🏫 Boss เอกประถม 50</button>
-      <button class="btn good" onclick="startNewsBoss(30)">📰 Boss ข่าว 30</button>
+      <button class="btn primary" onclick="startPart('A',20)">🟦 ภาค ก 20</button>
+      <button class="btn orange" onclick="startPart('B',20)">🟧 ภาค ข 20</button>
+      <button class="btn" onclick="startFullMock()">🏆 Mock 100</button>
+      <button class="btn good" onclick="showScreen('interview',document.querySelector('[data-screen=&quot;interview&quot;]'))">🎤 ภาค ค</button>
     </div>
   </div>
   <div class="grid">
@@ -73,11 +99,30 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
   </div>
   <div class="section-title"><h3>ภารกิจวันนี้</h3><span class="badge" id="dailyBadge">0/20</span></div>
   <div class="card quest">
-    <div class="ico">🎯</div><div style="flex:1"><b>Daily 20</b><div class="muted">ทำข้อสอบให้ครบ 20 ข้อวันนี้</div><div class="progress" style="margin-top:9px"><i id="dailyBar" style="width:0%"></i></div></div>
+    <div class="ico">🎯</div><div style="flex:1"><b>Daily 20</b><div class="muted">ทำข้อสอบคละภาค ก + ภาค ข ให้ครบ 20 ข้อวันนี้</div><div class="progress" style="margin-top:9px"><i id="dailyBar" style="width:0%"></i></div></div>
     <button class="btn ghost" onclick="startQuick(20)">เริ่ม</button>
   </div>
-  <div class="section-title"><h3>เลือกด่าน</h3><span class="muted tiny" id="bankCount"></span></div>
-  <div id="categoryCards" class="list"></div>
+  <div class="section-title"><h3>เลือกสนามสอบ</h3><span class="muted tiny" id="bankCount"></span></div>
+  <div id="categoryCards" class="stage-list"></div>
+
+  <div class="section-title"><h3>สนามจำลอง</h3><span class="badge">ตรงโครงสอบ</span></div>
+  <div class="grid">
+    <div class="card exam-card">
+      <h3>🟦 Boss ภาค ก 50</h3>
+      <p class="muted">สุ่มจากความรู้ทั่วไป กฎหมาย นโยบาย ข่าว และอุบล</p>
+      <button class="btn primary" onclick="startPartBoss('A')">เริ่มภาค ก</button>
+    </div>
+    <div class="card exam-card">
+      <h3>🟧 Boss ภาค ข 50</h3>
+      <p class="muted">สุ่มเฉพาะวิชาเอกประถมศึกษา</p>
+      <button class="btn orange" onclick="startPartBoss('B')">เริ่มภาค ข</button>
+    </div>
+    <div class="card exam-card mock" style="grid-column:1/-1">
+      <h3>🏆 Mock Exam 100</h3>
+      <p class="muted">ภาค ก 50 ข้อ + ภาค ข 50 ข้อ • เรียงตามสนามจริง</p>
+      <button class="btn primary" onclick="startFullMock()">เริ่มสอบจำลอง 100 ข้อ</button>
+    </div>
+  </div>
 </section>
 
 <section id="quiz" class="screen">
@@ -107,26 +152,41 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
   <div id="wrongList" class="list" style="margin-top:16px"></div>
 </section>
 
+
+<section id="interview" class="screen">
+  <div class="section-title"><h2>🎤 ภาค ค. สนามสัมภาษณ์</h2><span class="badge">ฝึกตอบ</span></div>
+  <div class="hero">
+    <div class="eyebrow">NES INTERVIEW CAMP</div>
+    <h2>ตอบให้ชัด สุภาพ และเป็นตัวเอง</h2>
+    <p>แบบฝึกนี้สร้างจากเกณฑ์ที่เห็นในประกาศที่คุณส่งมา ได้แก่ ประวัติส่วนตัวและการศึกษา บุคลิกลักษณะ/ท่วงทีวาจา และวุฒิภาวะทางอารมณ์/การแก้ปัญหา</p>
+  </div>
+  <div class="grid" style="margin-top:16px">
+    <div class="card"><div class="muted">เกณฑ์ที่เห็นในประกาศ</div><div class="stat">3 ด้าน</div></div>
+    <div class="card"><div class="muted">คะแนนที่เห็นในภาพ</div><div class="stat">30 คะแนน</div></div>
+  </div>
+  <div class="section-title"><h3>โจทย์ซ้อมสัมภาษณ์</h3><span class="muted tiny">แตะ “ดูแนวคิด” เมื่ออยากเช็ก</span></div>
+  <div id="interviewList"></div>
+</section>
+
 <section id="armory" class="screen">
-  <div class="section-title"><h2>คลังอาวุธ</h2><span class="badge">เนื้อหา + เครื่องมือ</span></div>
-  <div class="grid">
-    <div class="card"><h3>⚖️ กฎหมาย</h3><p class="muted">ฝึกเฉพาะ พ.ร.บ. คุรุสภา ก.ค.ศ. และระเบียบพนักงานราชการ</p><button class="btn ghost" onclick="startCategory('กฎหมาย/วิชาชีพครู',20)">ฝึก</button></div>
-    <div class="card"><h3>🏫 เอกประถม</h3><p class="muted">หลักสูตร การสอน การวัดผล และการจัดการเรียนรู้</p><button class="btn ghost" onclick="startCategory('เอกประถม/การจัดการเรียนรู้',20)">ฝึก</button></div>
-    <div class="card"><h3>🌼 อุบล เขต 1</h3><p class="muted">ข้อมูลพื้นที่ จังหวัด และสำนักงานเขต</p><button class="btn ghost" onclick="startCategory('อุบล เขต 1',20)">ฝึก</button></div>
-    <div class="card"><h3>📌 พนักงานราชการ</h3><p class="muted">สิทธิ การลา การจ้าง และระเบียบที่เกี่ยวข้อง</p><button class="btn ghost" onclick="startCategory('พนักงานราชการ',20)">ฝึก</button></div>
-    <div class="card"><h3>🔤 ไทย</h3><p class="muted">ภาษาไทยระดับประถม</p><button class="btn ghost" onclick="startCategory('เอกประถม • ภาษาไทย',20)">ฝึก</button></div>
-    <div class="card"><h3>➗ คณิต</h3><p class="muted">คณิตศาสตร์ระดับประถม</p><button class="btn ghost" onclick="startCategory('เอกประถม • คณิตศาสตร์',20)">ฝึก</button></div>
-    <div class="card"><h3>🔬 วิทย์</h3><p class="muted">วิทยาศาสตร์ระดับประถม</p><button class="btn ghost" onclick="startCategory('เอกประถม • วิทยาศาสตร์',20)">ฝึก</button></div>
-    <div class="card"><h3>🧒 พัฒนาการเด็ก</h3><p class="muted">จิตวิทยาและพัฒนาการวัยเรียน</p><button class="btn ghost" onclick="startCategory('เอกประถม • พัฒนาการเด็ก',20)">ฝึก</button></div>
-    <div class="card"><h3>🧪 วัดผล</h3><p class="muted">การวัดและประเมินผล</p><button class="btn ghost" onclick="startCategory('เอกประถม • วัดผลประเมินผล',20)">ฝึก</button></div>
-    <div class="card"><h3>📚 หลักสูตร</h3><p class="muted">หลักสูตรและการจัดการเรียนรู้</p><button class="btn ghost" onclick="startCategory('เอกประถม • หลักสูตร/การสอน',20)">ฝึก</button></div>
-    <div class="card"><h3>🌼 ข่าวอุบลปิดสนาม</h3><p class="muted">ข่าวอุบลราชธานีและ สพป.อุบล 1 ที่คัดก่อนสอบ</p><button class="btn ghost" onclick="startCategory('ข่าวปิดสนาม • อุบล',20)">ฝึก</button></div>
-    <div class="card"><h3>📰 ข่าวการศึกษา/ประเทศ</h3><p class="muted">ข่าวการศึกษา บุคคลสำคัญ และมาตรการล่าสุด</p><button class="btn ghost" onclick="startCategory('ข่าวปิดสนาม • การศึกษา/ประเทศ',20)">ฝึก</button></div>
-    <div class="card"><h3>🌏 ASEAN 2026</h3><p class="muted">ประธานอาเซียน การประชุม และเหตุการณ์ภูมิภาค</p><button class="btn ghost" onclick="startCategory('ข่าวปิดสนาม • ASEAN/ต่างประเทศ',20)">ฝึก</button></div>
+  <div class="section-title"><h2>🎒 คลังอาวุธ</h2><span class="badge">เลือกฝึกเฉพาะจุด</span></div>
+  <div class="stage-list">
+    <details class="stage">
+      <summary><div class="stage-ico" style="background:#eaf1ff">🟦</div><div class="stage-main"><div class="stage-title">ภาค ก. ความรู้ความสามารถทั่วไป</div><div class="stage-sub">ข่าว • อุบล • กฎหมาย • นโยบาย • พนักงานราชการ</div></div><span class="chev">⌄</span></summary>
+      <div class="stage-body" id="armoryA"></div>
+    </details>
+    <details class="stage">
+      <summary><div class="stage-ico" style="background:#fff0df">🟧</div><div class="stage-main"><div class="stage-title">ภาค ข. วิชาเอกประถมศึกษา</div><div class="stage-sub">ไทย • คณิต • วิทย์ • สังคม • อังกฤษ • จิตวิทยา • วัดผล</div></div><span class="chev">⌄</span></summary>
+      <div class="stage-body" id="armoryB"></div>
+    </details>
   </div>
   <div class="card" style="margin-top:16px">
-    <h3>สำรองข้อมูลความก้าวหน้า</h3><p class="muted">ข้อมูลอยู่ใน iPad เครื่องนี้ ไม่ส่งขึ้นเซิร์ฟเวอร์ คุณสามารถ Export ไว้สำรองแล้ว Import กลับได้</p>
-    <div class="row"><button class="btn" onclick="exportProgress()">⬇️ Export Progress</button><label class="btn ghost">⬆️ Import Progress<input id="progressFile" type="file" accept=".json" hidden onchange="importProgress(event)"></label></div>
+    <h3>💾 สำรองข้อมูลความก้าวหน้า</h3>
+    <p class="muted">ข้อมูลอยู่ใน iPad เครื่องนี้ ไม่ส่งขึ้นเซิร์ฟเวอร์</p>
+    <div class="row">
+      <button class="btn" onclick="exportProgress()">⬇️ Export Progress</button>
+      <label class="btn ghost">⬆️ Import Progress<input id="progressFile" type="file" accept=".json" hidden onchange="importProgress(event)"></label>
+    </div>
   </div>
 </section>
 
@@ -147,7 +207,7 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
   <button class="navbtn" data-screen="wrong" onclick="showScreen('wrong',this)"><b>🔥</b>แก้มือ</button>
   <button class="navbtn" data-screen="armory" onclick="showScreen('armory',this)"><b>🎒</b>คลังอาวุธ</button>
   <button class="navbtn" data-screen="stats" onclick="showScreen('stats',this)"><b>📊</b>สถิติ</button>
-  <button class="navbtn" onclick="startMock(50)"><b>👑</b>Boss</button>
+  <button class="navbtn" data-screen="interview" onclick="showScreen('interview',this)"><b>🎤</b>ภาค ค</button>
 </nav>
 </div>
 
@@ -195,7 +255,68 @@ function rankFor(xp){
 function toast(msg){const e=document.getElementById('toast');e.textContent=msg;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1800)}
 function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 function sample(arr,n){return shuffle(arr).slice(0,Math.min(n,arr.length))}
-function cats(){return [...new Set(BANK.map(q=>q.category))].sort()}
+function isCurrentAffairs(q){
+  return q.category==='เหตุการณ์ปัจจุบัน' || (q.category && q.category.startsWith('ข่าวปิดสนาม •'));
+}
+function currentAffairsPool(){return BANK.filter(isCurrentAffairs)}
+function cats(){
+  return [...new Set(BANK.map(q=>q.category))]
+    .filter(c=>c!=='เหตุการณ์ปัจจุบัน' && !c.startsWith('ข่าวปิดสนาม •'))
+    .sort();
+}
+function isPartB(q){
+  return !q.legacy && q.category && q.category.startsWith('เอกประถม');
+}
+function isPartA(q){
+  return !q.legacy && !isPartB(q);
+}
+function partAPool(){return BANK.filter(isPartA)}
+function partBPool(){return BANK.filter(isPartB)}
+function poolStats(pool){
+  const cs=[...new Set(pool.map(q=>q.category))];
+  let total=0,correct=0;
+  cs.forEach(c=>{const s=state.category[c]||{total:0,correct:0};total+=s.total||0;correct+=s.correct||0});
+  return {total,correct,acc:total?Math.round(correct/total*100):0};
+}
+const GROUPS={
+  'a-ubon':q=>q.category==='อุบล เขต 1'||q.category==='ข่าวปิดสนาม • อุบล',
+  'a-news':q=>isCurrentAffairs(q),
+  'a-policy':q=>q.category==='นโยบาย/บุคคลสำคัญ',
+  'a-law':q=>q.category==='กฎหมาย/วิชาชีพครู',
+  'a-employee':q=>q.category==='พนักงานราชการ',
+  'a-general':q=>q.category==='ความรู้ทั่วไป',
+  'b-thai':q=>q.category==='เอกประถม • ภาษาไทย',
+  'b-math':q=>q.category==='เอกประถม • คณิตศาสตร์',
+  'b-sci':q=>q.category==='เอกประถม • วิทยาศาสตร์',
+  'b-social':q=>q.category&&q.category.startsWith('เอกประถม • สังคม'),
+  'b-eng':q=>q.category==='เอกประถม • ภาษาอังกฤษ',
+  'b-child':q=>q.category==='เอกประถม • พัฒนาการเด็ก',
+  'b-curriculum':q=>['เอกประถม • หลักสูตร/การสอน','เอกประถม • การจัดการเรียนรู้','เอกประถม/การจัดการเรียนรู้'].includes(q.category),
+  'b-assess':q=>['เอกประถม • วัดผลประเมินผล','เอกประถม • วิจัยในชั้นเรียน'].includes(q.category),
+  'b-prof':q=>['เอกประถม • วิชาชีพครู','เอกประถม • พื้นฐานวิชาชีพ'].includes(q.category),
+  'b-art':q=>['เอกประถม • ศิลปะ/ท้องถิ่น','เอกประถม • เทคโนโลยี/การงาน'].includes(q.category)
+};
+function groupPool(key){const fn=GROUPS[key];return fn?BANK.filter(q=>!q.legacy&&fn(q)):[]}
+function startGroup(key,n,title){
+  const pool=groupPool(key);
+  if(!pool.length){toast('ยังไม่มีข้อสอบในด่านนี้');return}
+  startSession(sample(pool,n),'practice',title);
+}
+function startPart(part,n){
+  const pool=part==='A'?partAPool():partBPool();
+  startSession(sample(pool,n),'practice',part==='A'?'ภาค ก. ฝึก '+n:'ภาค ข. เอกประถม '+n);
+}
+function startPartBoss(part){
+  const pool=part==='A'?partAPool():partBPool();
+  startSession(sample(pool,50),'mock',part==='A'?'Boss ภาค ก 50':'Boss ภาค ข 50',60);
+}
+function startFullMock(){
+  const a=sample(partAPool(),50);
+  const b=sample(partBPool(),50);
+  startSession([...a,...b],'mock','Mock 100 • ภาค ก 50 + ภาค ข 50',120);
+  session.fullMock=true;
+}
+
 function renderDashboard(){
   ensureDay();
   const acc=state.total?Math.round(state.correct/state.total*100):0;
@@ -206,7 +327,7 @@ function renderDashboard(){
   document.getElementById('accStat').textContent=acc;
   document.getElementById('dailyBadge').textContent=`${Math.min(state.dailyCount||0,20)}/20`;
   document.getElementById('dailyBar').style.width=`${Math.min((state.dailyCount||0)/20*100,100)}%`;
-  document.getElementById('bankCount').textContent=`คลังพร้อมเล่น ${BANK.length} ข้อ • V2`;
+  document.getElementById('bankCount').textContent=`คลังพร้อมเล่น ${BANK.length} ข้อ • แยกภาค ก/ข`;
   document.getElementById('xpStat').textContent=state.xp;
   document.getElementById('correctStat').textContent=state.correct;
   document.getElementById('incorrectStat').textContent=state.incorrect;
@@ -216,21 +337,103 @@ function renderDashboard(){
 }
 function renderCategories(){
   const em=document.getElementById('categoryCards'); if(!em)return;
-  em.innerHTML=cats().map(c=>{
-    const n=BANK.filter(q=>q.category===c).length, s=state.category[c]||{total:0,correct:0};
-    const acc=s.total?Math.round(s.correct/s.total*100):0;
-    const ico={'อุบล เขต 1':'🌼','พนักงานราชการ':'📋','กฎหมาย/วิชาชีพครู':'⚖️','นโยบาย/บุคคลสำคัญ':'📣','เอกประถม/การจัดการเรียนรู้':'🏫','เหตุการณ์ปัจจุบัน':'📰','ข่าวปิดสนาม • อุบล':'🌼','ข่าวปิดสนาม • การศึกษา/ประเทศ':'📰','ข่าวปิดสนาม • ASEAN/ต่างประเทศ':'🌏','ความรู้ทั่วไป':'🧠'}[c]||'🎯';
-    return `<div class="list-item quest"><div class="ico">${ico}</div><div style="flex:1"><b>${c}</b><div class="muted">${n} ข้อ • ความแม่นยำ ${acc}%</div><div class="progress" style="margin-top:7px"><i style="width:${acc}%"></i></div></div><button class="btn ghost" onclick='startCategory(${JSON.stringify(c)},20)'>ลุย</button></div>`
+  const a=partAPool(), b=partBPool(), sa=poolStats(a), sb=poolStats(b);
+  const aGroups=[
+    ['a-ubon','🌼','อุบลราชธานี / สพป.อุบล 1'],
+    ['a-news','📰','เหตุการณ์ปัจจุบัน • ข่าวปิดสนาม'],
+    ['a-policy','📣','นโยบาย / บุคคลสำคัญ'],
+    ['a-law','⚖️','กฎหมาย / วิชาชีพครู'],
+    ['a-employee','📋','ระเบียบพนักงานราชการ'],
+    ['a-general','🧠','ความรู้ทั่วไป']
+  ];
+  const bGroups=[
+    ['b-thai','🔤','ภาษาไทย'],
+    ['b-math','➗','คณิตศาสตร์'],
+    ['b-sci','🔬','วิทยาศาสตร์'],
+    ['b-social','🌏','สังคม / ศาสนา / ประวัติศาสตร์'],
+    ['b-eng','🇬🇧','ภาษาอังกฤษ'],
+    ['b-child','🧒','จิตวิทยา / พัฒนาการเด็ก'],
+    ['b-curriculum','📚','หลักสูตร / การจัดการเรียนรู้'],
+    ['b-assess','🧪','วัดผล / วิจัยในชั้นเรียน'],
+    ['b-prof','👩‍🏫','วิชาชีพครู / พื้นฐานวิชาชีพ'],
+    ['b-art','🎨','ศิลปะ / การงาน / เทคโนโลยี']
+  ];
+  const renderOpts=(groups)=>groups.map(g=>{
+    const n=groupPool(g[0]).length;
+    return `<button class="stage-option" onclick='startGroup(${JSON.stringify(g[0])},20,${JSON.stringify(g[2])})'><b>${g[1]} ${g[2]}</b><small>${n} ข้อ • แตะเพื่อฝึก 20</small></button>`
   }).join('');
+  em.innerHTML=`
+    <details class="stage">
+      <summary>
+        <div class="stage-ico" style="background:#eaf1ff">🟦</div>
+        <div class="stage-main"><div class="stage-title">ภาค ก. ความรู้ความสามารถทั่วไป</div><div class="stage-sub">${a.length} ข้อ • ความแม่นยำรวม ${sa.acc}% • คะแนนสอบ 50</div></div>
+        <span class="chev">⌄</span>
+      </summary>
+      <div class="stage-body">
+        <div class="stage-actions"><button class="btn primary" onclick="startPart('A',20)">ตะลุย 20</button><button class="btn ghost" onclick="startPartBoss('A')">Boss 50</button></div>
+        <div class="stage-grid">${renderOpts(aGroups)}</div>
+      </div>
+    </details>
+    <details class="stage">
+      <summary>
+        <div class="stage-ico" style="background:#fff0df">🟧</div>
+        <div class="stage-main"><div class="stage-title">ภาค ข. วิชาเอกประถมศึกษา</div><div class="stage-sub">${b.length} ข้อ • ความแม่นยำรวม ${sb.acc}% • คะแนนสอบ 50</div></div>
+        <span class="chev">⌄</span>
+      </summary>
+      <div class="stage-body">
+        <div class="stage-actions"><button class="btn orange" onclick="startPart('B',20)">ตะลุย 20</button><button class="btn ghost" onclick="startPartBoss('B')">Boss 50</button></div>
+        <div class="stage-grid">${renderOpts(bGroups)}</div>
+      </div>
+    </details>
+    <details class="stage">
+      <summary>
+        <div class="stage-ico" style="background:#f1ecff">🎤</div>
+        <div class="stage-main"><div class="stage-title">ภาค ค. ความเหมาะสมกับตำแหน่ง</div><div class="stage-sub">ฝึกสัมภาษณ์จากเกณฑ์ที่เห็นในประกาศ</div></div>
+        <span class="chev">⌄</span>
+      </summary>
+      <div class="stage-body">
+        <button class="btn good" onclick="showScreen('interview',document.querySelector('[data-screen=&quot;interview&quot;]'))">เข้าสนามสัมภาษณ์</button>
+      </div>
+    </details>`;
+  renderArmoryGroups(aGroups,bGroups);
 }
+
+function renderArmoryGroups(aGroups,bGroups){
+  const render=(groups)=>groups.map(g=>`<button class="stage-option" onclick='startGroup(${JSON.stringify(g[0])},20,${JSON.stringify(g[2])})'><b>${g[1]} ${g[2]}</b><small>${groupPool(g[0]).length} ข้อ</small></button>`).join('');
+  const a=document.getElementById('armoryA'), b=document.getElementById('armoryB');
+  if(a)a.innerHTML=`<div class="stage-grid">${render(aGroups)}</div>`;
+  if(b)b.innerHTML=`<div class="stage-grid">${render(bGroups)}</div>`;
+}
+const INTERVIEW_QS=[
+  ['แนะนำตัวเองภายใน 60 วินาที','ชื่อ–วุฒิ–ประสบการณ์ที่เกี่ยวข้อง–เหตุผลที่อยากทำงานครูประถม และจบด้วยสิ่งที่พร้อมนำมาใช้กับโรงเรียน'],
+  ['ทำไมจึงเลือกสมัครเอกประถมศึกษา','เชื่อมความเข้าใจเด็กวัยประถม การดูแลรายบุคคล และความสามารถสอนได้หลายมิติ'],
+  ['จุดแข็งของคุณที่เหมาะกับตำแหน่งครูผู้สอนคืออะไร','ยกจุดแข็ง 1–2 ข้อ พร้อมตัวอย่างจริง ไม่ตอบเป็นคำคุณศัพท์ลอย ๆ'],
+  ['หากนักเรียนอ่านไม่คล่อง คุณจะช่วยอย่างไร','เริ่มประเมินรายบุคคล วางกิจกรรมตรงจุด ฝึกซ้ำ ติดตามผล และประสานผู้ปกครอง'],
+  ['ถ้านักเรียนสองคนทะเลาะกันในห้อง คุณจะทำอย่างไร','หยุดความเสี่ยง แยกสถานการณ์ ฟังทั้งสองฝ่าย ใช้เหตุผล ฟื้นฟูความสัมพันธ์ และติดตาม'],
+  ['ถ้าผู้ปกครองไม่พอใจผลการเรียนและพูดด้วยอารมณ์ คุณจะรับมืออย่างไร','ฟังให้จบ รักษาน้ำเสียง ใช้หลักฐานการเรียน อธิบายแนวช่วยเหลือ และนัดติดตาม'],
+  ['ถ้านักเรียนมีความแตกต่างกันมากในห้องเดียว คุณจะจัดการเรียนรู้แบบใด','ปรับกิจกรรมหลายระดับ ใช้กลุ่มยืดหยุ่น สื่อหลากหลาย และประเมินตามศักยภาพ'],
+  ['คุณจะใช้ AI ในการสอนอย่างไรให้เหมาะสม','ใช้ช่วยเตรียมสื่อ/ไอเดีย แต่ครูตรวจความถูกต้อง คุ้มครองข้อมูลเด็ก และไม่ให้ AI แทนการคิดของผู้เรียน'],
+  ['หากได้รับงานเร่งด่วนหลายงานพร้อมกัน คุณจะจัดการอย่างไร','จัดลำดับตามความเร่งด่วนและผลกระทบ สื่อสารผู้เกี่ยวข้อง แบ่งเวลา และไม่ละเลยงานสอน'],
+  ['เมื่อถูกวิจารณ์การทำงาน คุณจะตอบสนองอย่างไร','รับฟัง แยกข้อเท็จจริงจากอารมณ์ ขอข้อมูลเพิ่มเติม ปรับปรุง และติดตามผล']
+];
+function renderInterview(){
+  const e=document.getElementById('interviewList'); if(!e)return;
+  e.innerHTML=INTERVIEW_QS.map((x,i)=>`<div class="interview-card"><div class="muted tiny">ข้อซ้อม ${i+1}</div><div class="interview-q">${x[0]}</div><button class="btn ghost" style="margin-top:10px" onclick="toggleInterviewTip(${i})">💡 ดูแนวคิด</button><div class="interview-tip" id="itip${i}">${x[1]}</div></div>`).join('');
+}
+function toggleInterviewTip(i){const e=document.getElementById('itip'+i);if(e)e.classList.toggle('show')}
+
 function showScreen(id,btn){
   document.querySelectorAll('.screen').forEach(x=>x.classList.remove('active'));
   document.getElementById(id).classList.add('active');
   document.querySelectorAll('.navbtn').forEach(x=>x.classList.remove('active'));
   if(btn) btn.classList.add('active');
-  if(id!=='quiz') window.scrollTo({top:0,behavior:'smooth'});
+  if(id==='interview')renderInterview(); if(id!=='quiz') window.scrollTo({top:0,behavior:'smooth'});
 }
-function startQuick(n){startSession(sample(BANK,n),'practice','ตะลุย '+n)}
+function startQuick(n){startSession(sample(BANK.filter(q=>!q.legacy),n),'practice','ตะลุย '+n)}
+function startCurrentAffairs(n){
+  const pool=currentAffairsPool();
+  startSession(sample(pool,n),'practice','เหตุการณ์ปัจจุบัน • ข่าวปิดสนาม');
+}
 function startCategory(c,n){const pool=BANK.filter(q=>q.category===c);startSession(sample(pool,n),'practice',c)}
 function startWrong(){
   const pool=BANK.filter(q=>state.wrongIds.includes(q.id));
@@ -283,7 +486,7 @@ function startSession(qs,mode,title,minutes=0){
 function updateTimer(){let s=Math.max(0,session.remaining),m=Math.floor(s/60),r=s%60;document.getElementById('timer').textContent=`⏱ ${m}:${String(r).padStart(2,'0')}`}
 function renderQuestion(){
   const q=session.qs[session.index], selected=session.answers[q.id];
-  document.getElementById('qno').textContent=`ข้อ ${session.index+1}/${session.qs.length} • ${q.category}`;
+  const partLabel=isPartB(q)?'ภาค ข':'ภาค ก'; document.getElementById('qno').textContent=`ข้อ ${session.index+1}/${session.qs.length} • ${partLabel} • ${q.category}`;
   document.getElementById('qtext').textContent=q.question;
   const opts=document.getElementById('options'); opts.innerHTML='';
   q.options.forEach(o=>{
@@ -318,8 +521,13 @@ function recordAnswer(q,key){
   state.total++; state.dailyCount=(state.dailyCount||0)+1;
   state.category[q.category]=state.category[q.category]||{total:0,correct:0};
   state.category[q.category].total++;
+  if(isCurrentAffairs(q)){
+    state.category['CURRENT_AFFAIRS_ALL']=state.category['CURRENT_AFFAIRS_ALL']||{total:0,correct:0};
+    state.category['CURRENT_AFFAIRS_ALL'].total++;
+  }
   if(ok){
     state.correct++; state.xp+=10; state.category[q.category].correct++;
+    if(isCurrentAffairs(q)) state.category['CURRENT_AFFAIRS_ALL'].correct++;
     state.wrongIds=state.wrongIds.filter(x=>x!==q.id);
   }else{
     state.incorrect++;
@@ -347,7 +555,13 @@ function finishSession(){
       state.total++;state.dailyCount=(state.dailyCount||0)+1;
       state.category[q.category]=state.category[q.category]||{total:0,correct:0};
       state.category[q.category].total++;
-      if(ok){state.correct++;state.xp+=10;state.category[q.category].correct++;state.wrongIds=state.wrongIds.filter(x=>x!==q.id)}
+      if(isCurrentAffairs(q)){
+        state.category['CURRENT_AFFAIRS_ALL']=state.category['CURRENT_AFFAIRS_ALL']||{total:0,correct:0};
+        state.category['CURRENT_AFFAIRS_ALL'].total++;
+      }
+      if(ok){state.correct++;state.xp+=10;state.category[q.category].correct++;
+        if(isCurrentAffairs(q)) state.category['CURRENT_AFFAIRS_ALL'].correct++;
+        state.wrongIds=state.wrongIds.filter(x=>x!==q.id)}
       else{state.incorrect++;if(!state.wrongIds.includes(q.id))state.wrongIds.push(q.id)}
     }
   });
@@ -362,7 +576,13 @@ function finishSession(){
   document.getElementById('resultScore').textContent=pct+'%';
   document.getElementById('resultTitle').textContent=pct>=80?'🏆 ผ่านด่านแบบนักรบ!':pct>=60?'⚔️ ใกล้ผ่านบอสแล้ว':'🔥 ถึงเวลาห้องแก้มือ';
   document.getElementById('resultDetail').textContent=`ถูก ${correct}/${session.qs.length} • ตอบ ${answered}/${session.qs.length} • ได้แรงก์ ${rankFor(state.xp)}`;
-  document.getElementById('resultBreakdown').innerHTML=Object.entries(cat).map(([k,v])=>`<div class="list-item"><b>${k}</b><span style="float:right">${Math.round(v.correct/v.total*100)}%</span><div class="muted tiny">${v.correct}/${v.total} ข้อ</div></div>`).join('');
+  let summaryHtml='';
+  if(session.fullMock){
+    const pa={total:0,correct:0},pb={total:0,correct:0};
+    session.qs.forEach(q=>{const p=isPartB(q)?pb:pa;p.total++;if(session.answers[q.id]===q.answer)p.correct++});
+    summaryHtml=`<div class="list-item"><b>🟦 ภาค ก.</b><span style="float:right;font-weight:900">${pa.correct}/50</span><div class="muted tiny">${Math.round(pa.correct/pa.total*100)}%</div></div><div class="list-item"><b>🟧 ภาค ข.</b><span style="float:right;font-weight:900">${pb.correct}/50</span><div class="muted tiny">${Math.round(pb.correct/pb.total*100)}%</div></div>`;
+  }
+  document.getElementById('resultBreakdown').innerHTML=summaryHtml+Object.entries(cat).map(([k,v])=>`<div class="list-item"><b>${k}</b><span style="float:right">${Math.round(v.correct/v.total*100)}%</span><div class="muted tiny">${v.correct}/${v.total} ข้อ</div></div>`).join('');
   document.getElementById('resultModal').classList.add('show');
 }
 function closeResult(){document.getElementById('resultModal').classList.remove('show');showScreen('home',document.querySelector('[data-screen="home"]'))}
@@ -373,7 +593,10 @@ function renderWrong(){
 }
 function renderStats(){
   const el=document.getElementById('categoryStats');if(!el)return;
-  el.innerHTML=cats().map(c=>{const s=state.category[c]||{total:0,correct:0};const a=s.total?Math.round(s.correct/s.total*100):0;return `<div class="list-item"><b>${c}</b><span style="float:right;font-weight:900">${a}%</span><div class="progress" style="margin-top:9px"><i style="width:${a}%"></i></div><div class="muted tiny" style="margin-top:6px">${s.correct}/${s.total} ถูก</div></div>`}).join('');
+  const ns=state.category['CURRENT_AFFAIRS_ALL']||{total:0,correct:0};
+  const na=ns.total?Math.round(ns.correct/ns.total*100):0;
+  const newsHtml=`<div class="list-item"><b>เหตุการณ์ปัจจุบัน • ข่าวปิดสนาม</b><span style="float:right;font-weight:900">${na}%</span><div class="progress" style="margin-top:9px"><i style="width:${na}%"></i></div><div class="muted tiny" style="margin-top:6px">${ns.correct}/${ns.total} ถูก</div></div>`;
+  el.innerHTML=newsHtml+cats().map(c=>{const s=state.category[c]||{total:0,correct:0};const a=s.total?Math.round(s.correct/s.total*100):0;return `<div class="list-item"><b>${c}</b><span style="float:right;font-weight:900">${a}%</span><div class="progress" style="margin-top:9px"><i style="width:${a}%"></i></div><div class="muted tiny" style="margin-top:6px">${s.correct}/${s.total} ถูก</div></div>`}).join('');
 }
 function exportProgress(){
   const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='NES_Quest_Progress.json';a.click();URL.revokeObjectURL(a.href)
