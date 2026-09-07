@@ -64,13 +64,26 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
 .interview-tip.show{display:block}
 @media(max-width:620px){.stage-grid{grid-template-columns:1fr}.hero .row .btn{flex:1 1 45%}}
 
+
+.trustline{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 2px}
+.trustchip{display:inline-flex;align-items:center;gap:4px;padding:5px 8px;border-radius:999px;font-size:11px;font-weight:900;border:1px solid transparent}
+.trust-verified{background:#e9f7ef;color:#216e45;border-color:#bee3cb}
+.trust-law{background:#eef2ff;color:#3548a4;border-color:#cfd7ff}
+.trust-time{background:#fff5db;color:#8a6300;border-color:#f0dd9b}
+.trust-review{background:#fff0f0;color:#a12f2f;border-color:#efc2c2}
+.sourcebox{margin-top:10px;padding:10px 12px;border-radius:14px;background:#fff;border:1px solid var(--line)}
+.sourcebox .tiny{line-height:1.45}
+.content-note{padding:12px;border-radius:14px;background:#f7f5ef;margin:8px 0}
+.source-pack ul{margin:8px 0 0 20px;padding:0}.source-pack li{margin:5px 0}
+.verified-count{font-weight:900}
+
 </style>
 </head>
 <body>
 <div class="toast" id="toast"></div>
 <div class="app">
 <header class="top">
-  <div class="brand"><div class="logo">✏️</div><div><h1>นักรบดินสอ 2B : NES Quest</h1><small>NES Quest • ภาค ก–ข–ค Edition</small></div></div>
+  <div class="brand"><div class="logo">✏️</div><div><h1>นักรบดินสอ 2B : NES Quest</h1><small>NES Quest • Verified Source Edition</small></div></div>
   <div class="pill"><span id="xpTop">0</span> XP</div>
 </header>
 
@@ -133,7 +146,7 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
       <span class="timer" id="timer"></span>
     </div>
     <div class="qcard">
-      <div class="qno" id="qno">ข้อ 1/20</div>
+      <div class="qno" id="qno">ข้อ 1/20</div><div class="trustline" id="trustline"></div>
       <div class="qtext" id="qtext"></div>
       <div id="options"></div>
       <div class="feedback" id="feedback"></div>
@@ -169,7 +182,68 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
 </section>
 
 <section id="armory" class="screen">
-  <div class="section-title"><h2>🎒 คลังอาวุธ</h2><span class="badge">เลือกฝึกเฉพาะจุด</span></div>
+  <div class="section-title"><h2>📚 คลังเนื้อหา</h2><span class="badge">แหล่งอ้างอิง + ฝึกเฉพาะจุด</span></div>
+  <div class="card" style="margin-bottom:14px">
+    <h3>🛡️ ระดับความน่าเชื่อถือของข้อสอบ</h3>
+    <div class="trustline">
+      <span class="trustchip trust-verified">✅ ตรวจแล้ว</span>
+      <span class="trustchip trust-law">📜 ตัวบทกฎหมาย</span>
+      <span class="trustchip trust-time">🕒 ข้อมูลตามเวลา</span>
+      <span class="trustchip trust-review">⚠️ ต้องตรวจล่าสุด</span>
+    </div>
+    <p class="muted tiny">Boss และ Mock จะสุ่มเฉพาะข้อที่มี ✅ หรือ 📜 และไม่มี ⚠️</p>
+  </div>
+
+  <div class="stage-list" style="margin-bottom:16px">
+    <details class="stage source-pack">
+      <summary><div class="stage-ico" style="background:#eef2ff">📜</div><div class="stage-main"><div class="stage-title">ระเบียบพนักงานราชการ พ.ศ. 2547</div><div class="stage-sub">ตัวบทหลัก + ฉบับแก้ไข • ตรวจแหล่งทางการ</div></div><span class="chev">⌄</span></summary>
+      <div class="stage-body">
+        <div class="trustline"><span class="trustchip trust-law">📜 ตัวบทกฎหมาย</span><span class="trustchip trust-verified">✅ ตรวจแล้ว</span></div>
+        <ul>
+          <li>6 หมวด 43 ข้อ และ 1 บทเฉพาะกาล</li>
+          <li>พนักงานราชการ 2 ประเภท และจำแนกตำแหน่ง 6 กลุ่มงาน</li>
+          <li>กรอบอัตรากำลัง 4 ปี • สัญญาจ้างไม่เกินคราวละ 4 ปี</li>
+          <li>ไม่ผ่านการประเมิน → สัญญาสิ้นสุด และแจ้งภายใน 7 วัน</li>
+          <li>คณะกรรมการบริหารพนักงานราชการเรียกย่อว่า “คพร.”</li>
+        </ul>
+        <button class="btn ghost" style="margin-top:10px" onclick="startGroup('a-employee',20,'ระเบียบพนักงานราชการ')">ฝึกข้อสอบ</button>
+      </div>
+    </details>
+
+    <details class="stage source-pack">
+      <summary><div class="stage-ico" style="background:#e9f7ef">🧾</div><div class="stage-main"><div class="stage-title">สิทธิประโยชน์พนักงานราชการ</div><div class="stage-sub">พ.ศ. 2554 + ฉบับแก้ไขล่าสุดที่ตรวจถึงฉบับที่ 4 พ.ศ. 2566</div></div><span class="chev">⌄</span></summary>
+      <div class="stage-body">
+        <div class="trustline"><span class="trustchip trust-law">📜 ประกาศ คพร.</span><span class="trustchip trust-verified">✅ ตรวจแล้ว</span></div>
+        <ul>
+          <li>ลาป่วยเท่าที่ป่วยจริง • ตั้งแต่ 3 วันทำการอาจให้มีใบรับรองแพทย์</li>
+          <li>ลาคลอด 90 วัน • ลากิจ 10 วันทำการ • ลาพักผ่อน 10 วันทำการ</li>
+          <li>วันพักผ่อนสะสมได้ไม่เกิน 5 วัน และรวมปีปัจจุบันไม่เกิน 15 วัน</li>
+          <li>ฉบับที่ 4 พ.ศ. 2566 เพิ่มสิทธิลาไปช่วยเหลือภริยาที่คลอดบุตร ไม่เกิน 15 วันทำการ ภายใน 90 วัน</li>
+        </ul>
+        <div class="content-note"><b>✅ แก้จุดขัดแย้งแล้ว:</b> ข้อ 7 ใช้บังคับตั้งแต่ <b>2 มีนาคม 2548</b> ไม่ใช่ 2558</div>
+        <button class="btn ghost" onclick="startGroup('a-employee',20,'สิทธิประโยชน์พนักงานราชการ')">ฝึกข้อสอบ</button>
+      </div>
+    </details>
+
+    <details class="stage source-pack">
+      <summary><div class="stage-ico" style="background:#fff5db">📣</div><div class="stage-main"><div class="stage-title">นโยบายการศึกษา 2569</div><div class="stage-sub">ไฟล์สรุปอัปเดต ณ 5 มิ.ย. 2569 • ต้องระวังข้อมูลตามเวลา</div></div><span class="chev">⌄</span></summary>
+      <div class="stage-body">
+        <div class="trustline"><span class="trustchip trust-time">🕒 ข้อมูลตามเวลา</span></div>
+        <p class="muted">ใช้ไฟล์นี้เป็นฐานทบทวน แต่ชื่อบุคคล นโยบาย หรือข้อมูลหลัง 5 มิ.ย. จะยืนยันกับข่าวราชการใน “ข่าวปิดสนาม” ก่อนนำเข้าข้อสอบ</p>
+        <button class="btn ghost" onclick="startGroup('a-policy',20,'นโยบายการศึกษา')">ฝึกนโยบาย</button>
+      </div>
+    </details>
+
+    <details class="stage source-pack">
+      <summary><div class="stage-ico" style="background:#f1ecff">🎤</div><div class="stage-main"><div class="stage-title">คลังสัมภาษณ์ ภาค ค.</div><div class="stage-sub">คู่มือฉบับปรับปรุง 22 ส.ค. 2569 • มีตัวอย่างแนวคำถาม 100 คำถาม</div></div><span class="chev">⌄</span></summary>
+      <div class="stage-body">
+        <p class="muted">ใช้เป็น “กรอบความคิด” ไม่ท่องคำตอบตรง ๆ เน้นบุคลิก ทัศนคติ การดูแลผู้เรียน การแก้ปัญหา การทำงานร่วมกับผู้อื่น จรรยาบรรณ เทคโนโลยี/AI และความปลอดภัยในสถานศึกษา</p>
+        <button class="btn good" onclick="showScreen('interview',document.querySelector('[data-screen=&quot;interview&quot;]'))">ซ้อมภาค ค</button>
+      </div>
+    </details>
+  </div>
+
+  <div class="section-title"><h3>ฝึกเฉพาะจุด</h3><span class="muted tiny">พับ–กางตามภาค</span></div>
   <div class="stage-list">
     <details class="stage">
       <summary><div class="stage-ico" style="background:#eaf1ff">🟦</div><div class="stage-main"><div class="stage-title">ภาค ก. ความรู้ความสามารถทั่วไป</div><div class="stage-sub">ข่าว • อุบล • กฎหมาย • นโยบาย • พนักงานราชการ</div></div><span class="chev">⌄</span></summary>
@@ -205,7 +279,7 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
 <nav class="bottom">
   <button class="navbtn active" data-screen="home" onclick="showScreen('home',this)"><b>🏠</b>ค่ายฝึก</button>
   <button class="navbtn" data-screen="wrong" onclick="showScreen('wrong',this)"><b>🔥</b>แก้มือ</button>
-  <button class="navbtn" data-screen="armory" onclick="showScreen('armory',this)"><b>🎒</b>คลังอาวุธ</button>
+  <button class="navbtn" data-screen="armory" onclick="showScreen('armory',this)"><b>📚</b>คลังเนื้อหา</button>
   <button class="navbtn" data-screen="stats" onclick="showScreen('stats',this)"><b>📊</b>สถิติ</button>
   <button class="navbtn" data-screen="interview" onclick="showScreen('interview',this)"><b>🎤</b>ภาค ค</button>
 </nav>
@@ -264,6 +338,25 @@ function cats(){
     .filter(c=>c!=='เหตุการณ์ปัจจุบัน' && !c.startsWith('ข่าวปิดสนาม •'))
     .sort();
 }
+
+const TRUST_LABELS={
+  verified:['✅ ตรวจแล้ว','trust-verified'],
+  law:['📜 ตัวบทกฎหมาย','trust-law'],
+  time:['🕒 ข้อมูลตามเวลา','trust-time'],
+  review:['⚠️ ต้องตรวจล่าสุด','trust-review']
+};
+function trustHtml(q){
+  const arr=q.trustBadges||['review'];
+  return arr.map(k=>{const x=TRUST_LABELS[k]||TRUST_LABELS.review;return `<span class="trustchip ${x[1]}">${x[0]}</span>`}).join('');
+}
+function isExamTrusted(q){
+  const a=q.trustBadges||[];
+  return (a.includes('verified')||a.includes('law')) && !a.includes('review');
+}
+function trustedCount(pool){return pool.filter(isExamTrusted).length}
+function trustedPartAPool(){return partAPool().filter(isExamTrusted)}
+function trustedPartBPool(){return partBPool().filter(isExamTrusted)}
+
 function isPartB(q){
   return !q.legacy && q.category && q.category.startsWith('เอกประถม');
 }
@@ -307,12 +400,15 @@ function startPart(part,n){
   startSession(sample(pool,n),'practice',part==='A'?'ภาค ก. ฝึก '+n:'ภาค ข. เอกประถม '+n);
 }
 function startPartBoss(part){
-  const pool=part==='A'?partAPool():partBPool();
+  const pool=part==='A'?trustedPartAPool():trustedPartBPool();
+  if(pool.length<50){toast('ข้อที่ตรวจแล้วในภาคนี้ยังไม่ครบ 50 ข้อ');return}
   startSession(sample(pool,50),'mock',part==='A'?'Boss ภาค ก 50':'Boss ภาค ข 50',60);
 }
 function startFullMock(){
-  const a=sample(partAPool(),50);
-  const b=sample(partBPool(),50);
+  const ap=trustedPartAPool(), bp=trustedPartBPool();
+  if(ap.length<50||bp.length<50){toast('ข้อที่ตรวจแล้วสำหรับ Mock ยังไม่ครบ 50+50');return}
+  const a=sample(ap,50);
+  const b=sample(bp,50);
   startSession([...a,...b],'mock','Mock 100 • ภาค ก 50 + ภาค ข 50',120);
   session.fullMock=true;
 }
@@ -327,7 +423,7 @@ function renderDashboard(){
   document.getElementById('accStat').textContent=acc;
   document.getElementById('dailyBadge').textContent=`${Math.min(state.dailyCount||0,20)}/20`;
   document.getElementById('dailyBar').style.width=`${Math.min((state.dailyCount||0)/20*100,100)}%`;
-  document.getElementById('bankCount').textContent=`คลังพร้อมเล่น ${BANK.length} ข้อ • แยกภาค ก/ข`;
+  document.getElementById('bankCount').textContent=`คลัง ${BANK.length} ข้อ • พร้อมสอบยืนยัน ${BANK.filter(isExamTrusted).length} ข้อ`;
   document.getElementById('xpStat').textContent=state.xp;
   document.getElementById('correctStat').textContent=state.correct;
   document.getElementById('incorrectStat').textContent=state.incorrect;
@@ -404,18 +500,7 @@ function renderArmoryGroups(aGroups,bGroups){
   if(a)a.innerHTML=`<div class="stage-grid">${render(aGroups)}</div>`;
   if(b)b.innerHTML=`<div class="stage-grid">${render(bGroups)}</div>`;
 }
-const INTERVIEW_QS=[
-  ['แนะนำตัวเองภายใน 60 วินาที','ชื่อ–วุฒิ–ประสบการณ์ที่เกี่ยวข้อง–เหตุผลที่อยากทำงานครูประถม และจบด้วยสิ่งที่พร้อมนำมาใช้กับโรงเรียน'],
-  ['ทำไมจึงเลือกสมัครเอกประถมศึกษา','เชื่อมความเข้าใจเด็กวัยประถม การดูแลรายบุคคล และความสามารถสอนได้หลายมิติ'],
-  ['จุดแข็งของคุณที่เหมาะกับตำแหน่งครูผู้สอนคืออะไร','ยกจุดแข็ง 1–2 ข้อ พร้อมตัวอย่างจริง ไม่ตอบเป็นคำคุณศัพท์ลอย ๆ'],
-  ['หากนักเรียนอ่านไม่คล่อง คุณจะช่วยอย่างไร','เริ่มประเมินรายบุคคล วางกิจกรรมตรงจุด ฝึกซ้ำ ติดตามผล และประสานผู้ปกครอง'],
-  ['ถ้านักเรียนสองคนทะเลาะกันในห้อง คุณจะทำอย่างไร','หยุดความเสี่ยง แยกสถานการณ์ ฟังทั้งสองฝ่าย ใช้เหตุผล ฟื้นฟูความสัมพันธ์ และติดตาม'],
-  ['ถ้าผู้ปกครองไม่พอใจผลการเรียนและพูดด้วยอารมณ์ คุณจะรับมืออย่างไร','ฟังให้จบ รักษาน้ำเสียง ใช้หลักฐานการเรียน อธิบายแนวช่วยเหลือ และนัดติดตาม'],
-  ['ถ้านักเรียนมีความแตกต่างกันมากในห้องเดียว คุณจะจัดการเรียนรู้แบบใด','ปรับกิจกรรมหลายระดับ ใช้กลุ่มยืดหยุ่น สื่อหลากหลาย และประเมินตามศักยภาพ'],
-  ['คุณจะใช้ AI ในการสอนอย่างไรให้เหมาะสม','ใช้ช่วยเตรียมสื่อ/ไอเดีย แต่ครูตรวจความถูกต้อง คุ้มครองข้อมูลเด็ก และไม่ให้ AI แทนการคิดของผู้เรียน'],
-  ['หากได้รับงานเร่งด่วนหลายงานพร้อมกัน คุณจะจัดการอย่างไร','จัดลำดับตามความเร่งด่วนและผลกระทบ สื่อสารผู้เกี่ยวข้อง แบ่งเวลา และไม่ละเลยงานสอน'],
-  ['เมื่อถูกวิจารณ์การทำงาน คุณจะตอบสนองอย่างไร','รับฟัง แยกข้อเท็จจริงจากอารมณ์ ขอข้อมูลเพิ่มเติม ปรับปรุง และติดตามผล']
-];
+const INTERVIEW_QS=[["แนะนำตัวเองภายใน 60 วินาที", "ชื่อ–วุฒิ–ประสบการณ์ที่เกี่ยวข้อง–เหตุผลที่อยากทำงานครูประถม และจบด้วยสิ่งที่พร้อมนำมาใช้กับโรงเรียน"], ["ทำไมจึงเลือกสมัครเอกประถมศึกษา", "เชื่อมความเข้าใจเด็กวัยประถม การดูแลรายบุคคล และความสามารถทำงานกับหลายกลุ่มสาระ"], ["จุดแข็งของคุณที่เหมาะกับตำแหน่งครูผู้สอนคืออะไร", "ยกจุดแข็ง 1–2 ข้อพร้อมตัวอย่างจริง หลีกเลี่ยงคำตอบลอย ๆ"], ["จุดที่คุณต้องพัฒนาของตนเองคืออะไร", "เลือกเรื่องที่พัฒนาได้จริง บอกวิธีที่กำลังปรับปรุง และไม่เลือกจุดอ่อนที่กระทบจรรยาบรรณ"], ["หากนักเรียนอ่านไม่คล่อง คุณจะช่วยอย่างไร", "ประเมินรายบุคคล หาเหตุ ฝึกตรงจุด ติดตามผล และประสานผู้ปกครอง"], ["ถ้านักเรียนสองคนทะเลาะกันในห้อง คุณจะทำอย่างไร", "หยุดความเสี่ยง ฟังทั้งสองฝ่าย ใช้เหตุผล ฟื้นฟูความสัมพันธ์ และติดตาม"], ["ถ้าผู้ปกครองไม่พอใจผลการเรียนและพูดด้วยอารมณ์ คุณจะรับมืออย่างไร", "ฟังอย่างสงบ ใช้หลักฐาน อธิบายแนวช่วยเหลือ และนัดติดตาม"], ["ถ้านักเรียนมีความแตกต่างกันมากในห้องเดียว คุณจะจัดการเรียนรู้แบบใด", "ปรับระดับกิจกรรม กลุ่มยืดหยุ่น สื่อหลายรูปแบบ และประเมินตามศักยภาพ"], ["คุณจะใช้ AI ในการสอนอย่างไรให้เหมาะสม", "ใช้ช่วยเตรียมสื่อและไอเดีย แต่ครูตรวจความถูกต้อง คุ้มครองข้อมูล และไม่ให้ AI แทนการคิดของผู้เรียน"], ["หากได้รับงานเร่งด่วนหลายงานพร้อมกัน คุณจะจัดการอย่างไร", "จัดลำดับตามความเร่งด่วนและผลกระทบ สื่อสารผู้เกี่ยวข้อง แบ่งเวลา และรักษาคุณภาพงานสอน"], ["เมื่อถูกวิจารณ์การทำงาน คุณจะตอบสนองอย่างไร", "รับฟัง แยกข้อเท็จจริง ขอข้อมูลเพิ่ม ปรับปรุง และติดตามผล"], ["ถ้านักเรียนไม่ส่งงานซ้ำ ๆ คุณจะทำอย่างไร", "หาสาเหตุ สื่อสารเป็นรายบุคคล ปรับงานหรือเวลาอย่างเหมาะสม และติดตามร่วมกับผู้ปกครอง"], ["ถ้าเด็กถูกเพื่อนกลั่นแกล้ง คุณจะทำอย่างไร", "คุ้มครองความปลอดภัยทันที เก็บข้อมูล แยกผู้เกี่ยวข้อง ใช้ระบบดูแลช่วยเหลือ และติดตาม"], ["คุณจะสร้างห้องเรียนที่ปลอดภัยได้อย่างไร", "ตั้งกติกาชัด เฝ้าระวังความเสี่ยง ซ้อมแผนฉุกเฉิน สร้างพื้นที่ไว้วางใจ และรายงานตามระบบ"], ["ถ้าพบข้อมูลนักเรียนถูกแชร์ในกลุ่มออนไลน์ คุณจะทำอย่างไร", "หยุดการเผยแพร่ ปกป้องข้อมูล แจ้งผู้เกี่ยวข้อง และยึดหลักความเป็นส่วนตัวของเด็ก"], ["ถ้าผู้บริหารมอบหมายงานที่ไม่ถนัด คุณจะทำอย่างไร", "รับผิดชอบ ศึกษาเพิ่มเติม ขอคำแนะนำ และรายงานความก้าวหน้า"], ["คุณจะทำงานกับเพื่อนครูที่เห็นต่างอย่างไร", "ยึดเป้าหมายผู้เรียน รับฟัง ใช้ข้อมูล หาจุดร่วม และสื่อสารอย่างมืออาชีพ"], ["ถ้าชุมชนมีภูมิปัญญาท้องถิ่น คุณจะนำมาใช้ในการสอนอย่างไร", "เชื่อมกับตัวชี้วัดหรือเป้าหมายการเรียนรู้ เชิญแหล่งเรียนรู้ และให้เด็กลงมือปฏิบัติ"], ["คุณมองบทบาทครูประถมต่างจากครูระดับอื่นอย่างไร", "เน้นพื้นฐานสำคัญทั้งวิชาการ พฤติกรรม ทักษะชีวิต และการดูแลใกล้ชิดตามพัฒนาการ"], ["หากเด็กเรียนดีแต่ไม่กล้าแสดงออก คุณจะส่งเสริมอย่างไร", "สร้างงานที่สำเร็จได้ เริ่มจากกลุ่มเล็ก ให้แรงเสริมเชิงบวก และเพิ่มความท้าทายทีละขั้น"], ["ถ้านักเรียนทำข้อสอบได้ต่ำทั้งห้อง คุณจะทำอย่างไร", "วิเคราะห์ข้อสอบและการสอน หาเนื้อหาที่เป็นจุดอ่อน สอนซ่อม และประเมินซ้ำ"], ["คุณจะวัดผลนักเรียนอย่างเป็นธรรมได้อย่างไร", "ใช้หลายวิธี เกณฑ์ชัด สอดคล้องจุดประสงค์ และคำนึงถึงความแตกต่างระหว่างบุคคล"], ["ถ้ามีเหตุฉุกเฉินระหว่างเรียน คุณจะให้ความสำคัญกับอะไรเป็นอันดับแรก", "ความปลอดภัยของนักเรียน ปฏิบัติตามแผน แจ้งผู้รับผิดชอบ และตรวจนับนักเรียน"], ["ทำไมกรรมการควรเลือกคุณ", "สรุปความพร้อม คุณค่าที่จะมอบให้ผู้เรียน และยืนยันความรับผิดชอบด้วยตัวอย่างจริง"], ["ถ้าได้รับโอกาสทำงาน คุณอยากพัฒนาอะไรใน 90 วันแรก", "เรียนรู้บริบทโรงเรียน รู้จักผู้เรียน วางระบบชั้นเรียน ประสานทีม และตั้งเป้าหมายที่วัดผลได้"]];
 function renderInterview(){
   const e=document.getElementById('interviewList'); if(!e)return;
   e.innerHTML=INTERVIEW_QS.map((x,i)=>`<div class="interview-card"><div class="muted tiny">ข้อซ้อม ${i+1}</div><div class="interview-q">${x[0]}</div><button class="btn ghost" style="margin-top:10px" onclick="toggleInterviewTip(${i})">💡 ดูแนวคิด</button><div class="interview-tip" id="itip${i}">${x[1]}</div></div>`).join('');
@@ -487,6 +572,7 @@ function updateTimer(){let s=Math.max(0,session.remaining),m=Math.floor(s/60),r=
 function renderQuestion(){
   const q=session.qs[session.index], selected=session.answers[q.id];
   const partLabel=isPartB(q)?'ภาค ข':'ภาค ก'; document.getElementById('qno').textContent=`ข้อ ${session.index+1}/${session.qs.length} • ${partLabel} • ${q.category}`;
+  document.getElementById('trustline').innerHTML=trustHtml(q);
   document.getElementById('qtext').textContent=q.question;
   const opts=document.getElementById('options'); opts.innerHTML='';
   q.options.forEach(o=>{
@@ -502,7 +588,7 @@ function renderQuestion(){
   if(session.mode==='practice' && selected){
     const ok=selected===q.answer; f.classList.add('show',ok?'good':'bad');
     const ans=q.options.find(o=>o.key===q.answer);
-    f.innerHTML=`<b>${ok?'✅ ถูกต้อง +10 XP':'❌ ยังไม่ใช่'}</b><div style="margin-top:5px">เฉลย: <b>${q.answer}. ${escapeHtml(ans?ans.text:'')}</b></div>${q.explanation?`<div class="muted" style="margin-top:7px">${escapeHtml(q.explanation)}</div>`:''}${q.legacy?`<div class="tiny danger" style="margin-top:7px">⚠️ ข้อนี้มาจากคลังแนวเก่า ควรใช้ฝึกแนวคิด ไม่ใช้จำข้อมูลปัจจุบัน</div>`:''}<div class="tiny muted" style="margin-top:8px">ที่มา: ${escapeHtml(q.source)}</div>`;
+    f.innerHTML=`<b>${ok?'✅ ถูกต้อง +10 XP':'❌ ยังไม่ใช่'}</b><div style="margin-top:5px">เฉลย: <b>${q.answer}. ${escapeHtml(ans?ans.text:'')}</b></div>${q.explanation?`<div class="muted" style="margin-top:7px">${escapeHtml(q.explanation)}</div>`:''}<div class="sourcebox"><div class="trustline">${trustHtml(q)}</div><div class="tiny"><b>ที่มา:</b> ${escapeHtml(q.source)}</div>${q.trustRef?`<div class="tiny muted"><b>แหล่งตรวจ:</b> ${escapeHtml(q.trustRef)}</div>`:''}${q.lawSection?`<div class="tiny muted"><b>จุดอ้างอิง:</b> ${escapeHtml(q.lawSection)}</div>`:''}${q.trustChecked?`<div class="tiny muted"><b>ตรวจเมื่อ:</b> ${escapeHtml(q.trustChecked)}</div>`:''}${q.trustNote?`<div class="tiny muted" style="margin-top:4px">${escapeHtml(q.trustNote)}</div>`:''}</div>`;
   }
   document.getElementById('markText').textContent=session.marked[q.id]?'ยกเลิกธง':'ทำเครื่องหมาย';
   document.getElementById('nextBtn').textContent=session.index===session.qs.length-1?(session.mode==='mock'?'ส่งคำตอบ 👑':'จบภารกิจ ✓'):'ข้อต่อไป →';

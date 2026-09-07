@@ -27,7 +27,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-004",
@@ -57,7 +61,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-006",
@@ -87,7 +95,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-007",
@@ -117,7 +129,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-008",
@@ -147,7 +163,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-009",
@@ -177,7 +197,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-010",
@@ -207,7 +231,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-011",
@@ -237,7 +265,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-012",
@@ -267,7 +299,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-013",
@@ -297,7 +333,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-014",
@@ -327,7 +367,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-015",
@@ -357,7 +401,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-016",
@@ -387,7 +435,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-017",
@@ -417,7 +469,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-018",
@@ -447,7 +503,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-019",
@@ -477,7 +537,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-020",
@@ -507,7 +571,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-021",
@@ -537,7 +605,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-022",
@@ -567,7 +639,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-023",
@@ -597,7 +673,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-024",
@@ -627,7 +707,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-025",
@@ -657,7 +741,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-026",
@@ -687,7 +775,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-027",
@@ -717,7 +809,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-028",
@@ -747,7 +843,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-029",
@@ -777,7 +877,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-030",
@@ -807,7 +911,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-033",
@@ -837,7 +945,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "กฎหมาย/วิชาชีพครู",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-036",
@@ -867,7 +979,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-038",
@@ -897,7 +1013,12 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-GF-039",
@@ -927,7 +1048,12 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-GF-040",
@@ -957,7 +1083,12 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-GF-041",
@@ -987,7 +1118,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-042",
@@ -1017,7 +1152,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-045",
@@ -1047,7 +1186,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-046",
@@ -1077,7 +1220,12 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-GF-047",
@@ -1107,7 +1255,12 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-GF-048",
@@ -1137,7 +1290,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-049",
@@ -1167,7 +1324,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-050",
@@ -1197,7 +1358,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "เอกประถม/การจัดการเรียนรู้",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-051",
@@ -1227,7 +1392,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-052",
@@ -1257,7 +1426,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-054",
@@ -1287,7 +1460,12 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "เหตุการณ์ปัจจุบัน",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-GF-055",
@@ -1317,7 +1495,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-056",
@@ -1347,7 +1529,12 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-GF-057",
@@ -1377,7 +1564,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "เอกประถม/การจัดการเรียนรู้",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-058",
@@ -1407,7 +1598,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-059",
@@ -1437,7 +1632,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-060",
@@ -1467,7 +1666,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-061",
@@ -1497,7 +1700,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-062",
@@ -1527,7 +1734,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-063",
@@ -1557,7 +1768,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-065",
@@ -1587,7 +1802,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-066",
@@ -1617,7 +1836,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-067",
@@ -1647,7 +1870,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-068",
@@ -1677,7 +1904,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-069",
@@ -1707,7 +1938,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "กฎหมาย/วิชาชีพครู",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-071",
@@ -1737,7 +1972,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "กฎหมาย/วิชาชีพครู",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-073",
@@ -1767,7 +2006,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "กฎหมาย/วิชาชีพครู",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-074",
@@ -1797,7 +2040,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "กฎหมาย/วิชาชีพครู",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-075",
@@ -1827,7 +2074,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-077",
@@ -1857,7 +2108,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-078",
@@ -1887,7 +2142,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "กฎหมาย/วิชาชีพครู",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-079",
@@ -1917,7 +2176,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "กฎหมาย/วิชาชีพครู",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-080",
@@ -1947,7 +2210,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-081",
@@ -1977,7 +2244,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-082",
@@ -2007,7 +2278,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-083",
@@ -2037,7 +2312,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-084",
@@ -2067,7 +2346,12 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-GF-085",
@@ -2097,7 +2381,12 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-GF-086",
@@ -2127,7 +2416,12 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-GF-088",
@@ -2157,7 +2451,12 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-GF-089",
@@ -2187,7 +2486,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-090",
@@ -2217,7 +2520,12 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-GF-091",
@@ -2247,7 +2555,12 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-GF-093",
@@ -2277,7 +2590,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "เอกประถม/การจัดการเรียนรู้",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-094",
@@ -2311,7 +2628,12 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-GF-095",
@@ -2341,7 +2663,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-096",
@@ -2371,7 +2697,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-097",
@@ -2401,7 +2731,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-098",
@@ -2431,7 +2765,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-099",
@@ -2461,7 +2799,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-GF-100",
@@ -2491,7 +2833,11 @@ window.NES_QUESTIONS = [
     "sourceType": "Google Forms / ชุดฝึก",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-001",
@@ -2521,7 +2867,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-002",
@@ -2551,7 +2901,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-003",
@@ -2581,7 +2935,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-004",
@@ -2611,7 +2969,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-005",
@@ -2641,7 +3003,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-006",
@@ -2671,7 +3037,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-007",
@@ -2701,7 +3071,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-008",
@@ -2731,7 +3105,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-009",
@@ -2761,7 +3139,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-010",
@@ -2791,7 +3173,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-011",
@@ -2821,7 +3207,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "อุบล เขต 1",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-012",
@@ -2851,7 +3241,12 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-SIM-013",
@@ -2881,7 +3276,12 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-SIM-014",
@@ -2911,7 +3311,12 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-SIM-015",
@@ -2941,7 +3346,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-016",
@@ -2971,7 +3380,12 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-SIM-017",
@@ -3001,7 +3415,12 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-SIM-018",
@@ -3031,7 +3450,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "เอกประถม/การจัดการเรียนรู้",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-019",
@@ -3061,7 +3484,12 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-SIM-020",
@@ -3091,7 +3519,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "กฎหมาย/วิชาชีพครู",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-021",
@@ -3121,7 +3553,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "เอกประถม/การจัดการเรียนรู้",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-022",
@@ -3151,7 +3587,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "กฎหมาย/วิชาชีพครู",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-023",
@@ -3181,7 +3621,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-024",
@@ -3211,7 +3655,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-025",
@@ -3241,7 +3689,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-026",
@@ -3271,7 +3723,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-027",
@@ -3301,7 +3757,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-028",
@@ -3331,7 +3791,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-029",
@@ -3361,7 +3825,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-030",
@@ -3391,7 +3859,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "พนักงานราชการ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-031",
@@ -3421,7 +3893,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "กฎหมาย/วิชาชีพครู",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-032",
@@ -3451,7 +3927,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "เอกประถม/การจัดการเรียนรู้",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-033",
@@ -3481,7 +3961,12 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-SIM-034",
@@ -3511,7 +3996,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-035",
@@ -3541,7 +4030,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "กฎหมาย/วิชาชีพครู",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-036",
@@ -3571,7 +4064,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "กฎหมาย/วิชาชีพครู",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-037",
@@ -3601,7 +4098,12 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "นโยบาย/บุคคลสำคัญ",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อมูลอาจเปลี่ยนตามเวลาและยังไม่ได้ยืนยันกับแหล่งทางการล่าสุดใน V5"
   },
   {
     "id": "UBN-SIM-038",
@@ -3631,7 +4133,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-039",
@@ -3661,7 +4167,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "กฎหมาย/วิชาชีพครู",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-040",
@@ -3691,7 +4201,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "กฎหมาย/วิชาชีพครู",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-041",
@@ -3721,7 +4235,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "กฎหมาย/วิชาชีพครู",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-042",
@@ -3751,7 +4269,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-043",
@@ -3781,7 +4303,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-044",
@@ -3811,7 +4337,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "เอกประถม/การจัดการเรียนรู้",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-045",
@@ -3841,7 +4371,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-046",
@@ -3871,7 +4405,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-047",
@@ -3901,7 +4439,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-048",
@@ -3931,7 +4473,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-049",
@@ -3961,7 +4507,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "ความรู้ทั่วไป",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "UBN-SIM-050",
@@ -3991,7 +4541,11 @@ window.NES_QUESTIONS = [
     "sourceType": "แนวข้อสอบ PDF",
     "category": "กฎหมาย/วิชาชีพครู",
     "difficulty": "กลาง",
-    "active": true
+    "active": true,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบจากเฉลย/ผลคำตอบในชุดต้นฉบับ แต่ไม่ได้หมายความว่าข้อมูลทุกข้อเป็นข้อมูลทางการล่าสุด"
   },
   {
     "id": "PRIMARY-1-001",
@@ -4022,7 +4576,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-003",
@@ -4053,7 +4611,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พัฒนาการเด็ก",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-004",
@@ -4084,7 +4646,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-005",
@@ -4115,7 +4681,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-006",
@@ -4146,7 +4716,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วัดผลประเมินผล",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-007",
@@ -4177,7 +4751,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พัฒนาการเด็ก",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-008",
@@ -4208,7 +4786,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วัดผลประเมินผล",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-009",
@@ -4239,7 +4821,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-010",
@@ -4270,7 +4856,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-011",
@@ -4301,7 +4891,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วัดผลประเมินผล",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-012",
@@ -4332,7 +4926,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-013",
@@ -4363,7 +4961,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-014",
@@ -4394,7 +4996,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-015",
@@ -4425,7 +5031,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-016",
@@ -4456,7 +5066,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พัฒนาการเด็ก",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-017",
@@ -4487,7 +5101,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พัฒนาการเด็ก",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-018",
@@ -4518,7 +5136,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พัฒนาการเด็ก",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-019",
@@ -4549,7 +5171,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วัดผลประเมินผล",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-020",
@@ -4580,7 +5206,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-021",
@@ -4611,7 +5241,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-022",
@@ -4642,7 +5276,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-023",
@@ -4673,7 +5311,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วัดผลประเมินผล",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-024",
@@ -4704,7 +5346,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วัดผลประเมินผล",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-025",
@@ -4735,7 +5381,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วัดผลประเมินผล",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-026",
@@ -4766,7 +5416,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วัดผลประเมินผล",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-027",
@@ -4797,7 +5451,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-028",
@@ -4828,7 +5486,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-029",
@@ -4859,7 +5521,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-030",
@@ -4890,7 +5556,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-031",
@@ -4921,7 +5591,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-032",
@@ -4952,7 +5626,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-033",
@@ -4983,7 +5661,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-034",
@@ -5014,7 +5696,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-035",
@@ -5045,7 +5731,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-036",
@@ -5076,7 +5766,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-037",
@@ -5107,7 +5801,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-038",
@@ -5138,7 +5836,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-039",
@@ -5169,7 +5871,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-040",
@@ -5200,7 +5906,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-041",
@@ -5231,7 +5941,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-042",
@@ -5262,7 +5976,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-043",
@@ -5293,7 +6011,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-044",
@@ -5324,7 +6046,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-045",
@@ -5355,7 +6081,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-046",
@@ -5386,7 +6116,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-047",
@@ -5417,7 +6151,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-048",
@@ -5448,7 +6186,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พัฒนาการเด็ก",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-049",
@@ -5479,7 +6221,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิจัยในชั้นเรียน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-050",
@@ -5510,7 +6256,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-051",
@@ -5541,7 +6291,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-052",
@@ -5572,7 +6326,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-053",
@@ -5603,7 +6361,12 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "คลังเก่า • รอบรู้ทั่วไป",
-    "legacy": true
+    "legacy": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อจากคลังแนวเก่าหรือมีข้อมูลตามเวลา ใช้ฝึกแนวคิดและพักไว้จาก Boss/Mock"
   },
   {
     "id": "PRIMARY-1-054",
@@ -5634,7 +6397,12 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "คลังเก่า • รอบรู้ทั่วไป",
-    "legacy": true
+    "legacy": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อจากคลังแนวเก่าหรือมีข้อมูลตามเวลา ใช้ฝึกแนวคิดและพักไว้จาก Boss/Mock"
   },
   {
     "id": "PRIMARY-1-055",
@@ -5665,7 +6433,12 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "คลังเก่า • รอบรู้ทั่วไป",
-    "legacy": true
+    "legacy": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อจากคลังแนวเก่าหรือมีข้อมูลตามเวลา ใช้ฝึกแนวคิดและพักไว้จาก Boss/Mock"
   },
   {
     "id": "PRIMARY-1-056",
@@ -5696,7 +6469,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-057",
@@ -5727,7 +6504,12 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "คลังเก่า • รอบรู้ทั่วไป",
-    "legacy": true
+    "legacy": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อจากคลังแนวเก่าหรือมีข้อมูลตามเวลา ใช้ฝึกแนวคิดและพักไว้จาก Boss/Mock"
   },
   {
     "id": "PRIMARY-1-058",
@@ -5758,7 +6540,12 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "คลังเก่า • รอบรู้ทั่วไป",
-    "legacy": true
+    "legacy": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อจากคลังแนวเก่าหรือมีข้อมูลตามเวลา ใช้ฝึกแนวคิดและพักไว้จาก Boss/Mock"
   },
   {
     "id": "PRIMARY-1-059",
@@ -5789,7 +6576,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-060",
@@ -5820,7 +6611,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-061",
@@ -5851,7 +6646,12 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "คลังเก่า • รอบรู้ทั่วไป",
-    "legacy": true
+    "legacy": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อจากคลังแนวเก่าหรือมีข้อมูลตามเวลา ใช้ฝึกแนวคิดและพักไว้จาก Boss/Mock"
   },
   {
     "id": "PRIMARY-1-062",
@@ -5882,7 +6682,12 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "คลังเก่า • รอบรู้ทั่วไป",
-    "legacy": true
+    "legacy": true,
+    "trustBadges": [
+      "time",
+      "review"
+    ],
+    "trustNote": "ข้อจากคลังแนวเก่าหรือมีข้อมูลตามเวลา ใช้ฝึกแนวคิดและพักไว้จาก Boss/Mock"
   },
   {
     "id": "PRIMARY-1-063",
@@ -5913,7 +6718,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-064",
@@ -5944,7 +6753,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-065",
@@ -5975,7 +6788,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-066",
@@ -6006,7 +6823,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-067",
@@ -6037,7 +6858,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พัฒนาการเด็ก",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-068",
@@ -6068,7 +6893,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-069",
@@ -6099,7 +6928,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-070",
@@ -6130,7 +6963,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-071",
@@ -6161,7 +6998,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-072",
@@ -6192,7 +7033,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-073",
@@ -6223,7 +7068,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-074",
@@ -6254,7 +7103,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-075",
@@ -6285,7 +7138,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-076",
@@ -6316,7 +7173,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-077",
@@ -6347,7 +7208,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-078",
@@ -6378,7 +7243,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-079",
@@ -6409,7 +7278,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-080",
@@ -6440,7 +7313,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-081",
@@ -6471,7 +7348,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-082",
@@ -6502,7 +7383,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-083",
@@ -6533,7 +7418,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-084",
@@ -6564,7 +7453,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-085",
@@ -6595,7 +7488,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-086",
@@ -6626,7 +7523,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วัดผลประเมินผล",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-087",
@@ -6657,7 +7558,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-088",
@@ -6688,7 +7593,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-090",
@@ -6719,7 +7628,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-092",
@@ -6750,7 +7663,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-093",
@@ -6781,7 +7698,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-094",
@@ -6812,7 +7733,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-095",
@@ -6843,7 +7768,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พัฒนาการเด็ก",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-096",
@@ -6874,7 +7803,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-097",
@@ -6905,7 +7838,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-098",
@@ -6936,7 +7873,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-099",
@@ -6967,7 +7908,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พื้นฐานวิชาชีพ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-1-100",
@@ -6998,7 +7943,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิชาชีพครู",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-001",
@@ -7029,7 +7978,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • คณิตศาสตร์",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-004",
@@ -7060,7 +8013,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • คณิตศาสตร์",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-005",
@@ -7091,7 +8048,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • คณิตศาสตร์",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-006",
@@ -7122,7 +8083,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • เทคโนโลยี/การงาน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-007",
@@ -7153,7 +8118,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • เทคโนโลยี/การงาน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-008",
@@ -7184,7 +8153,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • เทคโนโลยี/การงาน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-010",
@@ -7215,7 +8188,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • เทคโนโลยี/การงาน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-011",
@@ -7246,7 +8223,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • ภาษาไทย",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-012",
@@ -7277,7 +8258,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • ภาษาไทย",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-013",
@@ -7308,7 +8293,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • ภาษาไทย",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-014",
@@ -7339,7 +8328,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • ภาษาไทย",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-015",
@@ -7370,7 +8363,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • ภาษาไทย",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-016",
@@ -7401,7 +8398,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิทยาศาสตร์",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-017",
@@ -7432,7 +8433,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิทยาศาสตร์",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-018",
@@ -7463,7 +8468,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิทยาศาสตร์",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-019",
@@ -7494,7 +8503,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิทยาศาสตร์",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-020",
@@ -7525,7 +8538,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิทยาศาสตร์",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-021",
@@ -7556,7 +8573,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • สังคม/ศาสนา",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-022",
@@ -7587,7 +8608,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • สังคม/ศาสนา",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-023",
@@ -7618,7 +8643,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • สังคม/ศาสนา",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-024",
@@ -7649,7 +8678,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • สังคม/ศาสนา",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-025",
@@ -7680,7 +8713,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • สังคม/ศาสนา",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-026",
@@ -7711,7 +8748,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • ศิลปะ/ท้องถิ่น",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-027",
@@ -7742,7 +8783,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • ศิลปะ/ท้องถิ่น",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-029",
@@ -7773,7 +8818,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • ศิลปะ/ท้องถิ่น",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-030",
@@ -7804,7 +8853,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • ศิลปะ/ท้องถิ่น",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-031",
@@ -7835,7 +8888,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • ศิลปะ/ท้องถิ่น",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-032",
@@ -7866,7 +8923,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • ศิลปะ/ท้องถิ่น",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-033",
@@ -7897,7 +8958,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • ศิลปะ/ท้องถิ่น",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-034",
@@ -7928,7 +8993,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • ศิลปะ/ท้องถิ่น",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-035",
@@ -7959,7 +9028,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • ศิลปะ/ท้องถิ่น",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-036",
@@ -7990,7 +9063,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พัฒนาการเด็ก",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-037",
@@ -8021,7 +9098,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พัฒนาการเด็ก",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-038",
@@ -8052,7 +9133,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พัฒนาการเด็ก",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-039",
@@ -8083,7 +9168,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พัฒนาการเด็ก",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-040",
@@ -8114,7 +9203,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • พัฒนาการเด็ก",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-041",
@@ -8145,7 +9238,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • ภาษาอังกฤษ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-042",
@@ -8176,7 +9273,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • ภาษาอังกฤษ",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-046",
@@ -8207,7 +9308,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • สังคม/ประวัติศาสตร์",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-047",
@@ -8238,7 +9343,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • สังคม/ประวัติศาสตร์",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-048",
@@ -8269,7 +9378,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • สังคม/ประวัติศาสตร์",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-049",
@@ -8300,7 +9413,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • สังคม/ประวัติศาสตร์",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-051",
@@ -8331,7 +9448,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • สังคม/ประวัติศาสตร์",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-052",
@@ -8362,7 +9483,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • การจัดการเรียนรู้",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-053",
@@ -8393,7 +9518,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • การจัดการเรียนรู้",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-054",
@@ -8424,7 +9553,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • การจัดการเรียนรู้",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-055",
@@ -8455,7 +9588,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • การจัดการเรียนรู้",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-056",
@@ -8486,7 +9623,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • การจัดการเรียนรู้",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-057",
@@ -8517,7 +9658,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • การจัดการเรียนรู้",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-058",
@@ -8548,7 +9693,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • การจัดการเรียนรู้",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-059",
@@ -8579,7 +9728,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • การจัดการเรียนรู้",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-060",
@@ -8610,7 +9763,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • การจัดการเรียนรู้",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-061",
@@ -8641,7 +9798,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • การจัดการเรียนรู้",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-063",
@@ -8672,7 +9833,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • การจัดการเรียนรู้",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-064",
@@ -8703,7 +9868,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิจัยในชั้นเรียน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-065",
@@ -8734,7 +9903,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิจัยในชั้นเรียน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-066",
@@ -8765,7 +9938,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วิจัยในชั้นเรียน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-067",
@@ -8796,7 +9973,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-068",
@@ -8827,7 +10008,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-069",
@@ -8858,7 +10043,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-070",
@@ -8889,7 +10078,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-071",
@@ -8920,7 +10113,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-072",
@@ -8951,7 +10148,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-073",
@@ -8982,7 +10183,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-074",
@@ -9013,7 +10218,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-075",
@@ -9044,7 +10253,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-076",
@@ -9075,7 +10288,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-077",
@@ -9106,7 +10323,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-078",
@@ -9137,7 +10358,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-079",
@@ -9168,7 +10393,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-080",
@@ -9199,7 +10428,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-081",
@@ -9230,7 +10463,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-082",
@@ -9261,7 +10498,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-083",
@@ -9292,7 +10533,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-084",
@@ -9323,7 +10568,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-085",
@@ -9354,7 +10603,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-086",
@@ -9385,7 +10638,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-087",
@@ -9416,7 +10673,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-088",
@@ -9447,7 +10708,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-089",
@@ -9478,7 +10743,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-090",
@@ -9509,7 +10778,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-091",
@@ -9540,7 +10813,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-092",
@@ -9571,7 +10848,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-093",
@@ -9602,7 +10883,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-094",
@@ -9633,7 +10918,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • หลักสูตร/การสอน",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-095",
@@ -9664,7 +10953,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วัดผลประเมินผล",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-096",
@@ -9695,7 +10988,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วัดผลประเมินผล",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-097",
@@ -9726,7 +11023,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วัดผลประเมินผล",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-098",
@@ -9757,7 +11058,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วัดผลประเมินผล",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-099",
@@ -9788,7 +11093,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วัดผลประเมินผล",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "PRIMARY-2-100",
@@ -9819,7 +11128,11 @@ window.NES_QUESTIONS = [
     "difficulty": "กลาง",
     "active": true,
     "category": "เอกประถม • วัดผลประเมินผล",
-    "legacy": false
+    "legacy": false,
+    "trustBadges": [
+      "verified"
+    ],
+    "trustNote": "ตรวจคำตอบเทียบกับเฉลยท้ายชุดในไฟล์ต้นฉบับ"
   },
   {
     "id": "NEWS-UB-001",
@@ -9851,7 +11164,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "12 ส.ค. 2569"
+    "verifiedDate": "12 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "12 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-002",
@@ -9883,7 +11202,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "12 ส.ค. 2569"
+    "verifiedDate": "12 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "12 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-003",
@@ -9915,7 +11240,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "12 ส.ค. 2569"
+    "verifiedDate": "12 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "12 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-004",
@@ -9947,7 +11278,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "11 ส.ค. 2569"
+    "verifiedDate": "11 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "11 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-005",
@@ -9979,7 +11316,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "11 ส.ค. 2569"
+    "verifiedDate": "11 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "11 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-006",
@@ -10011,7 +11354,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "11 ส.ค. 2569"
+    "verifiedDate": "11 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "11 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-007",
@@ -10043,7 +11392,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "20 ส.ค. 2569"
+    "verifiedDate": "20 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "20 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-008",
@@ -10075,7 +11430,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "20 ส.ค. 2569"
+    "verifiedDate": "20 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "20 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-009",
@@ -10107,7 +11468,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "20 ส.ค. 2569"
+    "verifiedDate": "20 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "20 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-010",
@@ -10139,7 +11506,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "20 ส.ค. 2569"
+    "verifiedDate": "20 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "20 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-011",
@@ -10171,7 +11544,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "20-24 ส.ค. 2569"
+    "verifiedDate": "20-24 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "20-24 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-012",
@@ -10203,7 +11582,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "20 ส.ค. 2569"
+    "verifiedDate": "20 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "20 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-013",
@@ -10235,7 +11620,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "20 ส.ค. 2569"
+    "verifiedDate": "20 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "20 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-014",
@@ -10267,7 +11658,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "20 ส.ค. 2569"
+    "verifiedDate": "20 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "20 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-015",
@@ -10299,7 +11696,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "27 ส.ค. 2569"
+    "verifiedDate": "27 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "27 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-016",
@@ -10331,7 +11734,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "27 ส.ค. 2569"
+    "verifiedDate": "27 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "27 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-017",
@@ -10363,7 +11772,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "28 ส.ค. 2569"
+    "verifiedDate": "28 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "28 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-018",
@@ -10395,7 +11810,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "28 ส.ค. 2569"
+    "verifiedDate": "28 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "28 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-019",
@@ -10427,7 +11848,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "27 ส.ค. 2569"
+    "verifiedDate": "27 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "27 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-020",
@@ -10459,7 +11886,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "20 ส.ค. 2569"
+    "verifiedDate": "20 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "20 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-021",
@@ -10491,7 +11924,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "21 ส.ค. 2569"
+    "verifiedDate": "21 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "21 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-022",
@@ -10523,7 +11962,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "21 ส.ค. 2569"
+    "verifiedDate": "21 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "21 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-023",
@@ -10555,7 +12000,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "21 ส.ค. 2569"
+    "verifiedDate": "21 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "21 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-024",
@@ -10587,7 +12038,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "24 ส.ค. 2569"
+    "verifiedDate": "24 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "24 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-025",
@@ -10619,7 +12076,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "24 ส.ค. 2569"
+    "verifiedDate": "24 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "24 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-026",
@@ -10651,7 +12114,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "24 ส.ค. 2569"
+    "verifiedDate": "24 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "24 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-027",
@@ -10683,7 +12152,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "20 ส.ค. 2569"
+    "verifiedDate": "20 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "20 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-028",
@@ -10715,7 +12190,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "20 ส.ค. 2569"
+    "verifiedDate": "20 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "20 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-029",
@@ -10747,7 +12228,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "20 ส.ค. 2569"
+    "verifiedDate": "20 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "20 ส.ค. 2569"
   },
   {
     "id": "NEWS-UB-030",
@@ -10779,7 +12266,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • อุบล",
-    "verifiedDate": "20 ส.ค. 2569"
+    "verifiedDate": "20 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "20 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-001",
@@ -10811,7 +12304,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "ส.ค. 2569"
+    "verifiedDate": "ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-002",
@@ -10843,7 +12342,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "22 ส.ค. 2569"
+    "verifiedDate": "22 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "22 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-003",
@@ -10875,7 +12380,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "10 ก.ค. 2569"
+    "verifiedDate": "10 ก.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "10 ก.ค. 2569"
   },
   {
     "id": "NEWS-ED-004",
@@ -10907,7 +12418,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "29 เม.ย. 2569"
+    "verifiedDate": "29 เม.ย. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "29 เม.ย. 2569"
   },
   {
     "id": "NEWS-ED-005",
@@ -10939,7 +12456,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "8 ส.ค. 2569"
+    "verifiedDate": "8 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "8 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-006",
@@ -10971,7 +12494,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "8 ส.ค. 2569"
+    "verifiedDate": "8 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "8 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-007",
@@ -11003,7 +12532,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "8 ส.ค. 2569"
+    "verifiedDate": "8 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "8 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-008",
@@ -11035,7 +12570,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "10 ส.ค. 2569"
+    "verifiedDate": "10 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "10 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-009",
@@ -11067,7 +12608,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "11 ส.ค. 2569"
+    "verifiedDate": "11 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "11 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-010",
@@ -11099,7 +12646,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "11 ส.ค. 2569"
+    "verifiedDate": "11 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "11 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-011",
@@ -11131,7 +12684,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "18 ส.ค. 2569"
+    "verifiedDate": "18 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "18 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-012",
@@ -11163,7 +12722,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "18 ส.ค. 2569"
+    "verifiedDate": "18 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "18 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-013",
@@ -11195,7 +12760,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "25 ส.ค. 2569"
+    "verifiedDate": "25 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "25 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-014",
@@ -11227,7 +12798,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "26 ส.ค. 2569"
+    "verifiedDate": "26 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "26 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-015",
@@ -11259,7 +12836,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "22 ส.ค. 2569"
+    "verifiedDate": "22 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "22 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-016",
@@ -11291,7 +12874,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "22 ส.ค. 2569"
+    "verifiedDate": "22 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "22 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-017",
@@ -11323,7 +12912,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "22 ส.ค. 2569"
+    "verifiedDate": "22 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "22 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-018",
@@ -11355,7 +12950,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "22 ส.ค. 2569"
+    "verifiedDate": "22 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "22 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-019",
@@ -11387,7 +12988,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "29 ส.ค. 2569"
+    "verifiedDate": "29 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "29 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-020",
@@ -11419,7 +13026,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "29 ส.ค. 2569"
+    "verifiedDate": "29 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "29 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-021",
@@ -11451,7 +13064,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "29 ส.ค. 2569"
+    "verifiedDate": "29 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "29 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-022",
@@ -11483,7 +13102,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "29 ส.ค. 2569"
+    "verifiedDate": "29 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "29 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-023",
@@ -11515,7 +13140,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "29 ส.ค. 2569"
+    "verifiedDate": "29 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "29 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-024",
@@ -11547,7 +13178,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "12 ส.ค. 2569"
+    "verifiedDate": "12 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "12 ส.ค. 2569"
   },
   {
     "id": "NEWS-ED-025",
@@ -11579,7 +13216,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • การศึกษา/ประเทศ",
-    "verifiedDate": "12 ส.ค. 2569"
+    "verifiedDate": "12 ส.ค. 2569",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "12 ส.ค. 2569"
   },
   {
     "id": "NEWS-AS-001",
@@ -11611,7 +13254,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • ASEAN/ต่างประเทศ",
-    "verifiedDate": "2026"
+    "verifiedDate": "2026",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "2026"
   },
   {
     "id": "NEWS-AS-002",
@@ -11643,7 +13292,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • ASEAN/ต่างประเทศ",
-    "verifiedDate": "2026"
+    "verifiedDate": "2026",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "2026"
   },
   {
     "id": "NEWS-AS-003",
@@ -11675,7 +13330,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • ASEAN/ต่างประเทศ",
-    "verifiedDate": "8 พ.ค. 2026"
+    "verifiedDate": "8 พ.ค. 2026",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "8 พ.ค. 2026"
   },
   {
     "id": "NEWS-AS-004",
@@ -11707,7 +13368,13 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • ASEAN/ต่างประเทศ",
-    "verifiedDate": "8 พ.ค. 2026"
+    "verifiedDate": "8 พ.ค. 2026",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "8 พ.ค. 2026"
   },
   {
     "id": "NEWS-AS-005",
@@ -11739,6 +13406,1377 @@ window.NES_QUESTIONS = [
     "active": true,
     "legacy": false,
     "category": "ข่าวปิดสนาม • ASEAN/ต่างประเทศ",
-    "verifiedDate": "21 ก.ค. 2026"
+    "verifiedDate": "21 ก.ค. 2026",
+    "trustBadges": [
+      "verified",
+      "time"
+    ],
+    "trustNote": "ตรวจจากข่าว/ข้อมูลของหน่วยงานทางการตามวันที่ระบุ",
+    "trustChecked": "21 ก.ค. 2026"
+  },
+  {
+    "id": "LAW-REG-001",
+    "sourceNo": 0,
+    "question": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 เริ่มใช้บังคับตั้งแต่วันใด",
+    "options": [
+      {
+        "key": "ก",
+        "text": "1 มกราคม 2547"
+      },
+      {
+        "key": "ข",
+        "text": "16 มกราคม 2547"
+      },
+      {
+        "key": "ค",
+        "text": "23 มกราคม 2547"
+      },
+      {
+        "key": "ง",
+        "text": "1 ตุลาคม 2547"
+      }
+    ],
+    "answer": "ก",
+    "explanation": "วันประกาศในราชกิจจานุเบกษากับวันเริ่มใช้บังคับเป็นคนละวัน ระเบียบกำหนดให้ใช้ตั้งแต่ 1 มกราคม 2547",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 2"
+  },
+  {
+    "id": "LAW-REG-002",
+    "sourceNo": 0,
+    "question": "ผู้รักษาการตามระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 คือผู้ใด",
+    "options": [
+      {
+        "key": "ก",
+        "text": "นายกรัฐมนตรี"
+      },
+      {
+        "key": "ข",
+        "text": "ปลัดสำนักนายกรัฐมนตรี"
+      },
+      {
+        "key": "ค",
+        "text": "เลขาธิการคณะกรรมการข้าราชการพลเรือน"
+      },
+      {
+        "key": "ง",
+        "text": "ผู้อำนวยการสำนักงบประมาณ"
+      }
+    ],
+    "answer": "ค",
+    "explanation": "ระเบียบกำหนดให้เลขาธิการคณะกรรมการข้าราชการพลเรือนเป็นผู้รักษาการ",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 5"
+  },
+  {
+    "id": "LAW-REG-003",
+    "sourceNo": 0,
+    "question": "พนักงานราชการตามระเบียบแบ่งออกเป็นกี่ประเภท",
+    "options": [
+      {
+        "key": "ก",
+        "text": "2 ประเภท"
+      },
+      {
+        "key": "ข",
+        "text": "3 ประเภท"
+      },
+      {
+        "key": "ค",
+        "text": "4 ประเภท"
+      },
+      {
+        "key": "ง",
+        "text": "6 ประเภท"
+      }
+    ],
+    "answer": "ก",
+    "explanation": "แบ่งเป็นพนักงานราชการทั่วไปและพนักงานราชการพิเศษ",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 6"
+  },
+  {
+    "id": "LAW-REG-004",
+    "sourceNo": 0,
+    "question": "ข้อใดเป็นพนักงานราชการประเภทที่ต้องใช้ความรู้หรือความเชี่ยวชาญสูงมากเป็นพิเศษ",
+    "options": [
+      {
+        "key": "ก",
+        "text": "พนักงานราชการทั่วไป"
+      },
+      {
+        "key": "ข",
+        "text": "พนักงานราชการพิเศษ"
+      },
+      {
+        "key": "ค",
+        "text": "ลูกจ้างประจำ"
+      },
+      {
+        "key": "ง",
+        "text": "ข้าราชการวิสามัญ"
+      }
+    ],
+    "answer": "ข",
+    "explanation": "ลักษณะดังกล่าวเป็นนิยามของพนักงานราชการพิเศษ",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 6"
+  },
+  {
+    "id": "LAW-REG-005",
+    "sourceNo": 0,
+    "question": "การจำแนกตำแหน่งพนักงานราชการตามระเบียบกำหนดไว้กี่กลุ่มงาน",
+    "options": [
+      {
+        "key": "ก",
+        "text": "4 กลุ่มงาน"
+      },
+      {
+        "key": "ข",
+        "text": "5 กลุ่มงาน"
+      },
+      {
+        "key": "ค",
+        "text": "6 กลุ่มงาน"
+      },
+      {
+        "key": "ง",
+        "text": "7 กลุ่มงาน"
+      }
+    ],
+    "answer": "ค",
+    "explanation": "ได้แก่ บริการ เทคนิค บริหารทั่วไป วิชาชีพเฉพาะ เชี่ยวชาญเฉพาะ และเชี่ยวชาญพิเศษ",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 7"
+  },
+  {
+    "id": "LAW-REG-006",
+    "sourceNo": 0,
+    "question": "อายุขั้นต่ำของผู้ที่จะได้รับการจ้างเป็นพนักงานราชการตามคุณสมบัติทั่วไปคือเท่าใด",
+    "options": [
+      {
+        "key": "ก",
+        "text": "16 ปี"
+      },
+      {
+        "key": "ข",
+        "text": "18 ปี"
+      },
+      {
+        "key": "ค",
+        "text": "20 ปี"
+      },
+      {
+        "key": "ง",
+        "text": "25 ปี"
+      }
+    ],
+    "answer": "ข",
+    "explanation": "ต้องมีอายุไม่ต่ำกว่า 18 ปี",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 8"
+  },
+  {
+    "id": "LAW-REG-007",
+    "sourceNo": 0,
+    "question": "ส่วนราชการต้องจัดทำกรอบอัตรากำลังพนักงานราชการเป็นระยะเวลากี่ปี",
+    "options": [
+      {
+        "key": "ก",
+        "text": "2 ปี"
+      },
+      {
+        "key": "ข",
+        "text": "3 ปี"
+      },
+      {
+        "key": "ค",
+        "text": "4 ปี"
+      },
+      {
+        "key": "ง",
+        "text": "5 ปี"
+      }
+    ],
+    "answer": "ค",
+    "explanation": "ระเบียบกำหนดกรอบอัตรากำลังเป็นระยะเวลา 4 ปี",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 9"
+  },
+  {
+    "id": "LAW-REG-008",
+    "sourceNo": 0,
+    "question": "โดยหลัก การจ้างพนักงานราชการทำสัญญาจ้างได้ไม่เกินคราวละกี่ปี",
+    "options": [
+      {
+        "key": "ก",
+        "text": "2 ปี"
+      },
+      {
+        "key": "ข",
+        "text": "3 ปี"
+      },
+      {
+        "key": "ค",
+        "text": "4 ปี"
+      },
+      {
+        "key": "ง",
+        "text": "5 ปี"
+      }
+    ],
+    "answer": "ค",
+    "explanation": "สัญญาจ้างไม่เกินคราวละ 4 ปี หรือเป็นไปตามระยะเวลาของโครงการที่กำหนดไว้",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 11"
+  },
+  {
+    "id": "LAW-REG-009",
+    "sourceNo": 0,
+    "question": "ผู้ใดเป็นผู้ลงนามในสัญญาจ้างพนักงานราชการ",
+    "options": [
+      {
+        "key": "ก",
+        "text": "หัวหน้าส่วนราชการหรือผู้ได้รับมอบหมาย"
+      },
+      {
+        "key": "ข",
+        "text": "เลขาธิการ ก.พ. เท่านั้น"
+      },
+      {
+        "key": "ค",
+        "text": "นายกรัฐมนตรีเท่านั้น"
+      },
+      {
+        "key": "ง",
+        "text": "ผู้ว่าราชการจังหวัดทุกกรณี"
+      }
+    ],
+    "answer": "ก",
+    "explanation": "หัวหน้าส่วนราชการหรือผู้ซึ่งได้รับมอบหมายจากหัวหน้าส่วนราชการเป็นผู้ลงนาม",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 11"
+  },
+  {
+    "id": "LAW-REG-010",
+    "sourceNo": 0,
+    "question": "การประเมินผลพนักงานราชการทั่วไปตามระเบียบมีทั้งการประเมินประจำปีและการประเมินเพื่อวัตถุประสงค์ใด",
+    "options": [
+      {
+        "key": "ก",
+        "text": "ย้ายจังหวัด"
+      },
+      {
+        "key": "ข",
+        "text": "ต่อสัญญาจ้าง"
+      },
+      {
+        "key": "ค",
+        "text": "ขอเครื่องราชอิสริยาภรณ์"
+      },
+      {
+        "key": "ง",
+        "text": "เลื่อนเป็นข้าราชการอัตโนมัติ"
+      }
+    ],
+    "answer": "ข",
+    "explanation": "พนักงานราชการทั่วไปประเมินประจำปีและเพื่อพิจารณาต่อสัญญาจ้าง",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 19"
+  },
+  {
+    "id": "LAW-REG-011",
+    "sourceNo": 0,
+    "question": "หากพนักงานราชการไม่ผ่านการประเมินผลการปฏิบัติงานตามข้อ 19 จะเกิดผลอย่างไร",
+    "options": [
+      {
+        "key": "ก",
+        "text": "พักงาน 30 วัน"
+      },
+      {
+        "key": "ข",
+        "text": "สัญญาจ้างสิ้นสุดลง"
+      },
+      {
+        "key": "ค",
+        "text": "ลดค่าตอบแทน 10%"
+      },
+      {
+        "key": "ง",
+        "text": "ตัดสิทธิวันลา"
+      }
+    ],
+    "answer": "ข",
+    "explanation": "ระเบียบให้ถือว่าสัญญาจ้างสิ้นสุดลง",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 20"
+  },
+  {
+    "id": "LAW-REG-012",
+    "sourceNo": 0,
+    "question": "เมื่อสัญญาจ้างสิ้นสุดเพราะไม่ผ่านการประเมิน ส่วนราชการต้องแจ้งให้ทราบภายในกี่วันนับแต่ทราบผล",
+    "options": [
+      {
+        "key": "ก",
+        "text": "3 วัน"
+      },
+      {
+        "key": "ข",
+        "text": "5 วัน"
+      },
+      {
+        "key": "ค",
+        "text": "7 วัน"
+      },
+      {
+        "key": "ง",
+        "text": "15 วัน"
+      }
+    ],
+    "answer": "ค",
+    "explanation": "ต้องแจ้งให้พนักงานราชการทราบภายใน 7 วัน",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 20"
+  },
+  {
+    "id": "LAW-REG-013",
+    "sourceNo": 0,
+    "question": "ส่วนราชการต้องรายงานผลการดำเนินการจ้างพนักงานราชการต่อคณะกรรมการภายในเดือนใดของทุกปี",
+    "options": [
+      {
+        "key": "ก",
+        "text": "กันยายน"
+      },
+      {
+        "key": "ข",
+        "text": "ตุลาคม"
+      },
+      {
+        "key": "ค",
+        "text": "พฤศจิกายน"
+      },
+      {
+        "key": "ง",
+        "text": "ธันวาคม"
+      }
+    ],
+    "answer": "ง",
+    "explanation": "กำหนดให้รายงานภายในเดือนธันวาคมของทุกปี",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 21"
+  },
+  {
+    "id": "LAW-REG-014",
+    "sourceNo": 0,
+    "question": "ข้อใดถือเป็นความผิดวินัยอย่างร้ายแรงตามระเบียบ",
+    "options": [
+      {
+        "key": "ก",
+        "text": "ทุจริตต่อหน้าที่ราชการ"
+      },
+      {
+        "key": "ข",
+        "text": "มาทำงานสายหนึ่งครั้ง"
+      },
+      {
+        "key": "ค",
+        "text": "ลืมบัตรประจำตัว"
+      },
+      {
+        "key": "ง",
+        "text": "แต่งกายไม่เหมือนเพื่อนร่วมงาน"
+      }
+    ],
+    "answer": "ก",
+    "explanation": "การทุจริตต่อหน้าที่ราชการเป็นความผิดวินัยอย่างร้ายแรง",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 24"
+  },
+  {
+    "id": "LAW-REG-015",
+    "sourceNo": 0,
+    "question": "การละทิ้งหรือทอดทิ้งการทำงานติดต่อกันเกินกี่วัน อาจเป็นความผิดวินัยอย่างร้ายแรงสำหรับตำแหน่งที่กำหนดวันเวลาทำงาน",
+    "options": [
+      {
+        "key": "ก",
+        "text": "3 วัน"
+      },
+      {
+        "key": "ข",
+        "text": "5 วัน"
+      },
+      {
+        "key": "ค",
+        "text": "7 วัน"
+      },
+      {
+        "key": "ง",
+        "text": "15 วัน"
+      }
+    ],
+    "answer": "ค",
+    "explanation": "ระเบียบใช้เกณฑ์ติดต่อกันเกินกว่า 7 วัน",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 24"
+  },
+  {
+    "id": "LAW-REG-016",
+    "sourceNo": 0,
+    "question": "ข้อใดเป็นเหตุหนึ่งที่ทำให้สัญญาจ้างพนักงานราชการสิ้นสุดลง",
+    "options": [
+      {
+        "key": "ก",
+        "text": "ครบกำหนดตามสัญญาจ้าง"
+      },
+      {
+        "key": "ข",
+        "text": "เปลี่ยนผู้บังคับบัญชา"
+      },
+      {
+        "key": "ค",
+        "text": "ย้ายที่พัก"
+      },
+      {
+        "key": "ง",
+        "text": "เปลี่ยนสถานภาพสมรส"
+      }
+    ],
+    "answer": "ก",
+    "explanation": "ครบกำหนดตามสัญญาจ้างเป็นเหตุสิ้นสุดสัญญาตามระเบียบ",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 28"
+  },
+  {
+    "id": "LAW-REG-017",
+    "sourceNo": 0,
+    "question": "คณะกรรมการบริหารพนักงานราชการเรียกโดยย่อว่าอะไร",
+    "options": [
+      {
+        "key": "ก",
+        "text": "ก.พ."
+      },
+      {
+        "key": "ข",
+        "text": "ก.พ.ร."
+      },
+      {
+        "key": "ค",
+        "text": "คพร."
+      },
+      {
+        "key": "ง",
+        "text": "คพก."
+      }
+    ],
+    "answer": "ค",
+    "explanation": "คณะกรรมการบริหารพนักงานราชการเรียกโดยย่อว่า คพร.",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 34"
+  },
+  {
+    "id": "LAW-REG-018",
+    "sourceNo": 0,
+    "question": "ผู้ใดเป็นประธานคณะกรรมการบริหารพนักงานราชการตามองค์ประกอบที่กำหนด",
+    "options": [
+      {
+        "key": "ก",
+        "text": "เลขาธิการ ก.พ."
+      },
+      {
+        "key": "ข",
+        "text": "รองนายกรัฐมนตรีหรือรัฐมนตรีที่นายกรัฐมนตรีมอบหมาย"
+      },
+      {
+        "key": "ค",
+        "text": "ผู้อำนวยการสำนักงบประมาณ"
+      },
+      {
+        "key": "ง",
+        "text": "อธิบดีกรมบัญชีกลาง"
+      }
+    ],
+    "answer": "ข",
+    "explanation": "ประธานคือรองนายกรัฐมนตรีหรือรัฐมนตรีซึ่งนายกรัฐมนตรีมอบหมาย",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 34"
+  },
+  {
+    "id": "LAW-REG-019",
+    "sourceNo": 0,
+    "question": "ผู้ใดเป็นรองประธานคณะกรรมการบริหารพนักงานราชการ",
+    "options": [
+      {
+        "key": "ก",
+        "text": "เลขาธิการคณะกรรมการข้าราชการพลเรือน"
+      },
+      {
+        "key": "ข",
+        "text": "อัยการสูงสุด"
+      },
+      {
+        "key": "ค",
+        "text": "อธิบดีกรมบัญชีกลาง"
+      },
+      {
+        "key": "ง",
+        "text": "ปลัดกระทรวงแรงงาน"
+      }
+    ],
+    "answer": "ก",
+    "explanation": "เลขาธิการคณะกรรมการข้าราชการพลเรือนเป็นรองประธาน",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 34"
+  },
+  {
+    "id": "LAW-REG-020",
+    "sourceNo": 0,
+    "question": "กรรมการผู้ทรงคุณวุฒิของคณะกรรมการบริหารพนักงานราชการมีวาระคราวละกี่ปี",
+    "options": [
+      {
+        "key": "ก",
+        "text": "1 ปี"
+      },
+      {
+        "key": "ข",
+        "text": "2 ปี"
+      },
+      {
+        "key": "ค",
+        "text": "3 ปี"
+      },
+      {
+        "key": "ง",
+        "text": "4 ปี"
+      }
+    ],
+    "answer": "ข",
+    "explanation": "วาระของกรรมการผู้ทรงคุณวุฒิคือคราวละ 2 ปี",
+    "source": "ระเบียบสำนักนายกรัฐมนตรีว่าด้วยพนักงานราชการ พ.ศ. 2547 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "ราชกิจจานุเบกษา เล่ม 121 ตอนพิเศษ 4 ง วันที่ 16 มกราคม 2547 / สำนักงาน ก.พ.",
+    "lawSection": "ข้อ 35"
+  },
+  {
+    "id": "LAW-BEN-001",
+    "sourceNo": 0,
+    "question": "ในประกาศสิทธิประโยชน์ของพนักงานราชการ คำว่า “ปี” หมายถึงปีใด",
+    "options": [
+      {
+        "key": "ก",
+        "text": "ปีปฏิทิน"
+      },
+      {
+        "key": "ข",
+        "text": "ปีการศึกษา"
+      },
+      {
+        "key": "ค",
+        "text": "ปีงบประมาณ"
+      },
+      {
+        "key": "ง",
+        "text": "ปีภาษี"
+      }
+    ],
+    "answer": "ค",
+    "explanation": "ประกาศกำหนดนิยาม 'ปี' ว่าหมายถึงปีงบประมาณ",
+    "source": "ประกาศคณะกรรมการบริหารพนักงานราชการ เรื่อง สิทธิประโยชน์ของพนักงานราชการ พ.ศ. 2554 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "สำนักงาน ก.พ. (OCSC): ประกาศ พ.ศ. 2554, ฉบับที่ 2 พ.ศ. 2560, ฉบับที่ 3 พ.ศ. 2562, ฉบับที่ 4 พ.ศ. 2566",
+    "lawSection": "ข้อ 3"
+  },
+  {
+    "id": "LAW-BEN-002",
+    "sourceNo": 0,
+    "question": "พนักงานราชการมีสิทธิลาป่วยได้อย่างไร",
+    "options": [
+      {
+        "key": "ก",
+        "text": "ไม่เกิน 10 วันต่อปี"
+      },
+      {
+        "key": "ข",
+        "text": "ไม่เกิน 30 วันต่อปี"
+      },
+      {
+        "key": "ค",
+        "text": "เท่าที่ป่วยจริงโดยนับวันทำการ"
+      },
+      {
+        "key": "ง",
+        "text": "เฉพาะเมื่อมีใบรับรองแพทย์เท่านั้น"
+      }
+    ],
+    "answer": "ค",
+    "explanation": "สิทธิลาป่วยให้ลาได้เท่าที่ป่วยจริงโดยนับวันทำการ",
+    "source": "ประกาศคณะกรรมการบริหารพนักงานราชการ เรื่อง สิทธิประโยชน์ของพนักงานราชการ พ.ศ. 2554 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "สำนักงาน ก.พ. (OCSC): ประกาศ พ.ศ. 2554, ฉบับที่ 2 พ.ศ. 2560, ฉบับที่ 3 พ.ศ. 2562, ฉบับที่ 4 พ.ศ. 2566",
+    "lawSection": "ข้อ 4 (1)"
+  },
+  {
+    "id": "LAW-BEN-003",
+    "sourceNo": 0,
+    "question": "การลาป่วยตั้งแต่กี่วันทำการขึ้นไป ผู้มีอำนาจอนุญาตอาจสั่งให้มีใบรับรองแพทย์",
+    "options": [
+      {
+        "key": "ก",
+        "text": "2 วัน"
+      },
+      {
+        "key": "ข",
+        "text": "3 วัน"
+      },
+      {
+        "key": "ค",
+        "text": "5 วัน"
+      },
+      {
+        "key": "ง",
+        "text": "7 วัน"
+      }
+    ],
+    "answer": "ข",
+    "explanation": "ตั้งแต่ 3 วันทำการขึ้นไปอาจถูกสั่งให้แสดงใบรับรองแพทย์",
+    "source": "ประกาศคณะกรรมการบริหารพนักงานราชการ เรื่อง สิทธิประโยชน์ของพนักงานราชการ พ.ศ. 2554 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "สำนักงาน ก.พ. (OCSC): ประกาศ พ.ศ. 2554, ฉบับที่ 2 พ.ศ. 2560, ฉบับที่ 3 พ.ศ. 2562, ฉบับที่ 4 พ.ศ. 2566",
+    "lawSection": "ข้อ 4 (1)"
+  },
+  {
+    "id": "LAW-BEN-004",
+    "sourceNo": 0,
+    "question": "พนักงานราชการมีสิทธิลาคลอดบุตรได้กี่วัน",
+    "options": [
+      {
+        "key": "ก",
+        "text": "45 วัน"
+      },
+      {
+        "key": "ข",
+        "text": "60 วัน"
+      },
+      {
+        "key": "ค",
+        "text": "90 วัน"
+      },
+      {
+        "key": "ง",
+        "text": "120 วัน"
+      }
+    ],
+    "answer": "ค",
+    "explanation": "สิทธิลาคลอดบุตรกำหนดไว้ 90 วัน",
+    "source": "ประกาศคณะกรรมการบริหารพนักงานราชการ เรื่อง สิทธิประโยชน์ของพนักงานราชการ พ.ศ. 2554 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "สำนักงาน ก.พ. (OCSC): ประกาศ พ.ศ. 2554, ฉบับที่ 2 พ.ศ. 2560, ฉบับที่ 3 พ.ศ. 2562, ฉบับที่ 4 พ.ศ. 2566",
+    "lawSection": "ข้อ 4 (2)"
+  },
+  {
+    "id": "LAW-BEN-005",
+    "sourceNo": 0,
+    "question": "พนักงานราชการมีสิทธิลากิจส่วนตัวได้ปีละไม่เกินกี่วันทำการ",
+    "options": [
+      {
+        "key": "ก",
+        "text": "5 วัน"
+      },
+      {
+        "key": "ข",
+        "text": "10 วัน"
+      },
+      {
+        "key": "ค",
+        "text": "15 วัน"
+      },
+      {
+        "key": "ง",
+        "text": "20 วัน"
+      }
+    ],
+    "answer": "ข",
+    "explanation": "ลากิจส่วนตัวได้ปีละไม่เกิน 10 วันทำการ",
+    "source": "ประกาศคณะกรรมการบริหารพนักงานราชการ เรื่อง สิทธิประโยชน์ของพนักงานราชการ พ.ศ. 2554 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "สำนักงาน ก.พ. (OCSC): ประกาศ พ.ศ. 2554, ฉบับที่ 2 พ.ศ. 2560, ฉบับที่ 3 พ.ศ. 2562, ฉบับที่ 4 พ.ศ. 2566",
+    "lawSection": "ข้อ 4 (3)"
+  },
+  {
+    "id": "LAW-BEN-006",
+    "sourceNo": 0,
+    "question": "โดยทั่วไป พนักงานราชการมีสิทธิลาพักผ่อนปีละกี่วันทำการ",
+    "options": [
+      {
+        "key": "ก",
+        "text": "5 วัน"
+      },
+      {
+        "key": "ข",
+        "text": "10 วัน"
+      },
+      {
+        "key": "ค",
+        "text": "15 วัน"
+      },
+      {
+        "key": "ง",
+        "text": "20 วัน"
+      }
+    ],
+    "answer": "ข",
+    "explanation": "สิทธิลาพักผ่อนประจำปีคือ 10 วันทำการ",
+    "source": "ประกาศคณะกรรมการบริหารพนักงานราชการ เรื่อง สิทธิประโยชน์ของพนักงานราชการ พ.ศ. 2554 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "สำนักงาน ก.พ. (OCSC): ประกาศ พ.ศ. 2554, ฉบับที่ 2 พ.ศ. 2560, ฉบับที่ 3 พ.ศ. 2562, ฉบับที่ 4 พ.ศ. 2566",
+    "lawSection": "ข้อ 4 (4)"
+  },
+  {
+    "id": "LAW-BEN-007",
+    "sourceNo": 0,
+    "question": "วันลาพักผ่อนที่ยังไม่ได้ใช้สามารถนำมาสะสมได้สูงสุดกี่วันทำการ",
+    "options": [
+      {
+        "key": "ก",
+        "text": "3 วัน"
+      },
+      {
+        "key": "ข",
+        "text": "5 วัน"
+      },
+      {
+        "key": "ค",
+        "text": "10 วัน"
+      },
+      {
+        "key": "ง",
+        "text": "15 วัน"
+      }
+    ],
+    "answer": "ข",
+    "explanation": "วันลาที่นำมาสะสมได้ต้องไม่เกิน 5 วันทำการ",
+    "source": "ประกาศคณะกรรมการบริหารพนักงานราชการ เรื่อง สิทธิประโยชน์ของพนักงานราชการ พ.ศ. 2554 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "สำนักงาน ก.พ. (OCSC): ประกาศ พ.ศ. 2554, ฉบับที่ 2 พ.ศ. 2560, ฉบับที่ 3 พ.ศ. 2562, ฉบับที่ 4 พ.ศ. 2566",
+    "lawSection": "ข้อ 4 (4)"
+  },
+  {
+    "id": "LAW-BEN-008",
+    "sourceNo": 0,
+    "question": "เมื่อรวมวันลาพักผ่อนสะสมกับสิทธิของปีปัจจุบันแล้ว ต้องไม่เกินกี่วันทำการ",
+    "options": [
+      {
+        "key": "ก",
+        "text": "10 วัน"
+      },
+      {
+        "key": "ข",
+        "text": "12 วัน"
+      },
+      {
+        "key": "ค",
+        "text": "15 วัน"
+      },
+      {
+        "key": "ง",
+        "text": "20 วัน"
+      }
+    ],
+    "answer": "ค",
+    "explanation": "รวมแล้วต้องไม่เกิน 15 วันทำการ",
+    "source": "ประกาศคณะกรรมการบริหารพนักงานราชการ เรื่อง สิทธิประโยชน์ของพนักงานราชการ พ.ศ. 2554 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "สำนักงาน ก.พ. (OCSC): ประกาศ พ.ศ. 2554, ฉบับที่ 2 พ.ศ. 2560, ฉบับที่ 3 พ.ศ. 2562, ฉบับที่ 4 พ.ศ. 2566",
+    "lawSection": "ข้อ 4 (4)"
+  },
+  {
+    "id": "LAW-BEN-009",
+    "sourceNo": 0,
+    "question": "พนักงานราชการที่ได้รับการจ้างต่อเนื่องไม่น้อยกว่ากี่ปี จึงมีสิทธิลาอุปสมบทหรือประกอบพิธีฮัจญ์ตามเงื่อนไขที่กำหนด",
+    "options": [
+      {
+        "key": "ก",
+        "text": "1 ปี"
+      },
+      {
+        "key": "ข",
+        "text": "2 ปี"
+      },
+      {
+        "key": "ค",
+        "text": "3 ปี"
+      },
+      {
+        "key": "ง",
+        "text": "4 ปี"
+      }
+    ],
+    "answer": "ง",
+    "explanation": "ต้องได้รับการจ้างต่อเนื่องไม่น้อยกว่า 4 ปี",
+    "source": "ประกาศคณะกรรมการบริหารพนักงานราชการ เรื่อง สิทธิประโยชน์ของพนักงานราชการ พ.ศ. 2554 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "สำนักงาน ก.พ. (OCSC): ประกาศ พ.ศ. 2554, ฉบับที่ 2 พ.ศ. 2560, ฉบับที่ 3 พ.ศ. 2562, ฉบับที่ 4 พ.ศ. 2566",
+    "lawSection": "ข้อ 4 (6)"
+  },
+  {
+    "id": "LAW-BEN-010",
+    "sourceNo": 0,
+    "question": "การลาอุปสมบทหรือประกอบพิธีฮัจญ์ตามสิทธิพนักงานราชการมีระยะเวลาสูงสุดเท่าใด",
+    "options": [
+      {
+        "key": "ก",
+        "text": "30 วัน"
+      },
+      {
+        "key": "ข",
+        "text": "60 วัน"
+      },
+      {
+        "key": "ค",
+        "text": "90 วัน"
+      },
+      {
+        "key": "ง",
+        "text": "120 วัน"
+      }
+    ],
+    "answer": "ง",
+    "explanation": "สิทธิแต่ละครั้งตามเงื่อนไขกำหนดไว้ไม่เกิน 120 วัน",
+    "source": "ประกาศคณะกรรมการบริหารพนักงานราชการ เรื่อง สิทธิประโยชน์ของพนักงานราชการ พ.ศ. 2554 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "สำนักงาน ก.พ. (OCSC): ประกาศ พ.ศ. 2554, ฉบับที่ 2 พ.ศ. 2560, ฉบับที่ 3 พ.ศ. 2562, ฉบับที่ 4 พ.ศ. 2566",
+    "lawSection": "ข้อ 4 (6)"
+  },
+  {
+    "id": "LAW-BEN-011",
+    "sourceNo": 0,
+    "question": "พนักงานราชการมีสิทธิได้รับค่าตอบแทนระหว่างลาป่วยจากส่วนราชการปีหนึ่งไม่เกินกี่วัน",
+    "options": [
+      {
+        "key": "ก",
+        "text": "15 วัน"
+      },
+      {
+        "key": "ข",
+        "text": "30 วัน"
+      },
+      {
+        "key": "ค",
+        "text": "45 วัน"
+      },
+      {
+        "key": "ง",
+        "text": "60 วัน"
+      }
+    ],
+    "answer": "ข",
+    "explanation": "ค่าตอบแทนระหว่างลาป่วยจากส่วนราชการได้ไม่เกิน 30 วันต่อปี",
+    "source": "ประกาศคณะกรรมการบริหารพนักงานราชการ เรื่อง สิทธิประโยชน์ของพนักงานราชการ พ.ศ. 2554 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "สำนักงาน ก.พ. (OCSC): ประกาศ พ.ศ. 2554, ฉบับที่ 2 พ.ศ. 2560, ฉบับที่ 3 พ.ศ. 2562, ฉบับที่ 4 พ.ศ. 2566",
+    "lawSection": "ข้อ 5 (1)"
+  },
+  {
+    "id": "LAW-BEN-012",
+    "sourceNo": 0,
+    "question": "พนักงานราชการมีสิทธิได้รับค่าตอบแทนระหว่างลาคลอดบุตรจากส่วนราชการไม่เกินกี่วัน",
+    "options": [
+      {
+        "key": "ก",
+        "text": "30 วัน"
+      },
+      {
+        "key": "ข",
+        "text": "45 วัน"
+      },
+      {
+        "key": "ค",
+        "text": "60 วัน"
+      },
+      {
+        "key": "ง",
+        "text": "90 วัน"
+      }
+    ],
+    "answer": "ข",
+    "explanation": "ส่วนราชการจ่ายค่าตอบแทนระหว่างลาคลอดได้ไม่เกิน 45 วัน ส่วนสิทธิอื่นเป็นไปตามประกันสังคม",
+    "source": "ประกาศคณะกรรมการบริหารพนักงานราชการ เรื่อง สิทธิประโยชน์ของพนักงานราชการ พ.ศ. 2554 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "สำนักงาน ก.พ. (OCSC): ประกาศ พ.ศ. 2554, ฉบับที่ 2 พ.ศ. 2560, ฉบับที่ 3 พ.ศ. 2562, ฉบับที่ 4 พ.ศ. 2566",
+    "lawSection": "ข้อ 5 (2)"
+  },
+  {
+    "id": "LAW-BEN-013",
+    "sourceNo": 0,
+    "question": "ตามสิทธิประโยชน์ฉบับที่ 4 พ.ศ. 2566 พนักงานราชการมีสิทธิลาไปช่วยเหลือภริยาที่คลอดบุตรติดต่อกันได้ไม่เกินกี่วันทำการ",
+    "options": [
+      {
+        "key": "ก",
+        "text": "7 วัน"
+      },
+      {
+        "key": "ข",
+        "text": "10 วัน"
+      },
+      {
+        "key": "ค",
+        "text": "15 วัน"
+      },
+      {
+        "key": "ง",
+        "text": "30 วัน"
+      }
+    ],
+    "answer": "ค",
+    "explanation": "ฉบับที่ 4 พ.ศ. 2566 เพิ่มสิทธิลาไปช่วยเหลือภริยาที่คลอดบุตร ครั้งหนึ่งติดต่อกันได้ไม่เกิน 15 วันทำการ",
+    "source": "ประกาศคณะกรรมการบริหารพนักงานราชการ เรื่อง สิทธิประโยชน์ของพนักงานราชการ พ.ศ. 2554 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "สำนักงาน ก.พ. (OCSC): ประกาศ พ.ศ. 2554, ฉบับที่ 2 พ.ศ. 2560, ฉบับที่ 3 พ.ศ. 2562, ฉบับที่ 4 พ.ศ. 2566",
+    "lawSection": "ฉบับที่ 4 พ.ศ. 2566 ข้อ 3"
+  },
+  {
+    "id": "LAW-BEN-014",
+    "sourceNo": 0,
+    "question": "การลาไปช่วยเหลือภริยาที่คลอดบุตรตามฉบับที่ 4 พ.ศ. 2566 ต้องใช้สิทธิภายในกี่วันนับแต่วันที่คลอดบุตร",
+    "options": [
+      {
+        "key": "ก",
+        "text": "30 วัน"
+      },
+      {
+        "key": "ข",
+        "text": "60 วัน"
+      },
+      {
+        "key": "ค",
+        "text": "90 วัน"
+      },
+      {
+        "key": "ง",
+        "text": "120 วัน"
+      }
+    ],
+    "answer": "ค",
+    "explanation": "ต้องเสนอหรือจัดส่งใบลาภายใน 90 วันนับแต่วันที่ภริยาคลอดบุตร",
+    "source": "ประกาศคณะกรรมการบริหารพนักงานราชการ เรื่อง สิทธิประโยชน์ของพนักงานราชการ พ.ศ. 2554 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "สำนักงาน ก.พ. (OCSC): ประกาศ พ.ศ. 2554, ฉบับที่ 2 พ.ศ. 2560, ฉบับที่ 3 พ.ศ. 2562, ฉบับที่ 4 พ.ศ. 2566",
+    "lawSection": "ฉบับที่ 4 พ.ศ. 2566 ข้อ 3"
+  },
+  {
+    "id": "LAW-BEN-015",
+    "sourceNo": 0,
+    "question": "ข้อ 7 ของประกาศสิทธิประโยชน์ พ.ศ. 2554 ใช้บังคับย้อนหลังตั้งแต่วันที่ใดตามแหล่งสำนักงาน ก.พ.",
+    "options": [
+      {
+        "key": "ก",
+        "text": "2 มีนาคม 2548"
+      },
+      {
+        "key": "ข",
+        "text": "2 มีนาคม 2558"
+      },
+      {
+        "key": "ค",
+        "text": "28 กุมภาพันธ์ 2554"
+      },
+      {
+        "key": "ง",
+        "text": "21 กรกฎาคม 2560"
+      }
+    ],
+    "answer": "ก",
+    "explanation": "จุดนี้เคยพบความขัดแย้งในไฟล์สรุปบางหน้า แต่ตรวจแหล่งสำนักงาน ก.พ. แล้วเป็น 2 มีนาคม 2548",
+    "source": "ประกาศคณะกรรมการบริหารพนักงานราชการ เรื่อง สิทธิประโยชน์ของพนักงานราชการ พ.ศ. 2554 และที่แก้ไขเพิ่มเติม",
+    "sourceType": "ตัวบท/ประกาศทางการที่ตรวจแล้ว",
+    "category": "พนักงานราชการ",
+    "difficulty": "กลาง",
+    "active": true,
+    "legacy": false,
+    "trustBadges": [
+      "law",
+      "verified"
+    ],
+    "trustNote": "ตรวจเทียบกับตัวบท/ประกาศทางการแล้ว",
+    "trustChecked": "7 ก.ย. 2569",
+    "trustRef": "สำนักงาน ก.พ. (OCSC): ประกาศ พ.ศ. 2554, ฉบับที่ 2 พ.ศ. 2560, ฉบับที่ 3 พ.ศ. 2562, ฉบับที่ 4 พ.ศ. 2566",
+    "lawSection": "ข้อ 2 / จุดแก้ความขัดแย้ง"
   }
 ];
