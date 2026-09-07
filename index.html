@@ -44,7 +44,7 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
 <div class="toast" id="toast"></div>
 <div class="app">
 <header class="top">
-  <div class="brand"><div class="logo">✏️</div><div><h1>นักรบดินสอ 2B : NES Quest</h1><small>NES Quest • Level & Medal Edition</small></div></div>
+  <div class="brand"><div class="logo">✏️</div><div><h1>นักรบดินสอ 2B : NES Quest</h1><small>NES Quest • ข่าวปิดสนาม Edition</small></div></div>
   <div class="pill"><span id="xpTop">0</span> XP</div>
 </header>
 
@@ -52,11 +52,12 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
   <div class="hero">
     <div class="eyebrow">NES DAILY QUEST</div>
     <h2 id="hello">วันนี้พร้อมลุยไหม เนส?</h2>
-    <p>ฝึกทีละนิด เก็บ XP แก้ข้อผิด และค่อย ๆ ปลดล็อกความมั่นใจก่อนลงสนามจริง</p>
+    <p>ฝึกทีละนิด เก็บ XP แก้ข้อผิด • ข่าวปิดสนามคัดข้อมูลถึง 31 ส.ค. 2569 เพื่อสอบ 12 ก.ย. 2569</p>
     <div class="row">
       <button class="btn primary" onclick="startQuick(20)">⚔️ ตะลุย 20 ข้อ</button>
       <button class="btn" onclick="startMock(50)">👑 Boss Exam 50</button>
       <button class="btn orange" onclick="startPrimaryBoss(50)">🏫 Boss เอกประถม 50</button>
+      <button class="btn good" onclick="startNewsBoss(30)">📰 Boss ข่าว 30</button>
     </div>
   </div>
   <div class="grid">
@@ -119,6 +120,9 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
     <div class="card"><h3>🧒 พัฒนาการเด็ก</h3><p class="muted">จิตวิทยาและพัฒนาการวัยเรียน</p><button class="btn ghost" onclick="startCategory('เอกประถม • พัฒนาการเด็ก',20)">ฝึก</button></div>
     <div class="card"><h3>🧪 วัดผล</h3><p class="muted">การวัดและประเมินผล</p><button class="btn ghost" onclick="startCategory('เอกประถม • วัดผลประเมินผล',20)">ฝึก</button></div>
     <div class="card"><h3>📚 หลักสูตร</h3><p class="muted">หลักสูตรและการจัดการเรียนรู้</p><button class="btn ghost" onclick="startCategory('เอกประถม • หลักสูตร/การสอน',20)">ฝึก</button></div>
+    <div class="card"><h3>🌼 ข่าวอุบลปิดสนาม</h3><p class="muted">ข่าวอุบลราชธานีและ สพป.อุบล 1 ที่คัดก่อนสอบ</p><button class="btn ghost" onclick="startCategory('ข่าวปิดสนาม • อุบล',20)">ฝึก</button></div>
+    <div class="card"><h3>📰 ข่าวการศึกษา/ประเทศ</h3><p class="muted">ข่าวการศึกษา บุคคลสำคัญ และมาตรการล่าสุด</p><button class="btn ghost" onclick="startCategory('ข่าวปิดสนาม • การศึกษา/ประเทศ',20)">ฝึก</button></div>
+    <div class="card"><h3>🌏 ASEAN 2026</h3><p class="muted">ประธานอาเซียน การประชุม และเหตุการณ์ภูมิภาค</p><button class="btn ghost" onclick="startCategory('ข่าวปิดสนาม • ASEAN/ต่างประเทศ',20)">ฝึก</button></div>
   </div>
   <div class="card" style="margin-top:16px">
     <h3>สำรองข้อมูลความก้าวหน้า</h3><p class="muted">ข้อมูลอยู่ใน iPad เครื่องนี้ ไม่ส่งขึ้นเซิร์ฟเวอร์ คุณสามารถ Export ไว้สำรองแล้ว Import กลับได้</p>
@@ -215,7 +219,7 @@ function renderCategories(){
   em.innerHTML=cats().map(c=>{
     const n=BANK.filter(q=>q.category===c).length, s=state.category[c]||{total:0,correct:0};
     const acc=s.total?Math.round(s.correct/s.total*100):0;
-    const ico={'อุบล เขต 1':'🌼','พนักงานราชการ':'📋','กฎหมาย/วิชาชีพครู':'⚖️','นโยบาย/บุคคลสำคัญ':'📣','เอกประถม/การจัดการเรียนรู้':'🏫','เหตุการณ์ปัจจุบัน':'📰','ความรู้ทั่วไป':'🧠'}[c]||'🎯';
+    const ico={'อุบล เขต 1':'🌼','พนักงานราชการ':'📋','กฎหมาย/วิชาชีพครู':'⚖️','นโยบาย/บุคคลสำคัญ':'📣','เอกประถม/การจัดการเรียนรู้':'🏫','เหตุการณ์ปัจจุบัน':'📰','ข่าวปิดสนาม • อุบล':'🌼','ข่าวปิดสนาม • การศึกษา/ประเทศ':'📰','ข่าวปิดสนาม • ASEAN/ต่างประเทศ':'🌏','ความรู้ทั่วไป':'🧠'}[c]||'🎯';
     return `<div class="list-item quest"><div class="ico">${ico}</div><div style="flex:1"><b>${c}</b><div class="muted">${n} ข้อ • ความแม่นยำ ${acc}%</div><div class="progress" style="margin-top:7px"><i style="width:${acc}%"></i></div></div><button class="btn ghost" onclick='startCategory(${JSON.stringify(c)},20)'>ลุย</button></div>`
   }).join('');
 }
@@ -235,6 +239,11 @@ function startWrong(){
 }
 function primaryPool(){
   return BANK.filter(q=>q.category && q.category.startsWith('เอกประถม •') && !q.legacy);
+}
+function newsPool(){return BANK.filter(q=>q.category && q.category.startsWith('ข่าวปิดสนาม •'))}
+function startNewsBoss(n){
+  const pool=newsPool(); if(!pool.length){toast('ยังไม่มีข่าวปิดสนาม');return}
+  startSession(sample(pool,n),'mock','Boss ข่าวปิดสนาม '+n,35);
 }
 function startPrimaryBoss(n){
   const pool=primaryPool();
