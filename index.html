@@ -83,7 +83,7 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
 <div class="toast" id="toast"></div>
 <div class="app">
 <header class="top">
-  <div class="brand"><div class="logo">✏️</div><div><h1>นักรบดินสอ 2B : NES Quest</h1><small>NES Quest • Verified Source Edition</small></div></div>
+  <div class="brand"><div class="logo">✏️</div><div><h1>นักรบดินสอ 2B : NES Quest</h1><small>NES Quest • เตรียมสอบครูผู้ช่วย 2569</small></div></div>
   <div class="pill"><span id="xpTop">0</span> XP</div>
 </header>
 
@@ -91,11 +91,11 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
   <div class="hero">
     <div class="eyebrow">NES DAILY QUEST</div>
     <h2 id="hello">วันนี้พร้อมลุยไหม เนส?</h2>
-    <p>ฝึกทีละนิด เก็บ XP แก้ข้อผิด • ข่าวปิดสนามคัดข้อมูลถึง 31 ส.ค. 2569 เพื่อสอบ 12 ก.ย. 2569</p>
+    <p>เตรียมสอบครูผู้ช่วย • ฝึกอย่างมีระบบ เก็บ XP แก้ข้อผิด และติดตามความพร้อมรายภาค</p>
     <div class="row">
       <button class="btn primary" onclick="startPart('A',20)">🟦 ภาค ก 20</button>
       <button class="btn orange" onclick="startPart('B',20)">🟧 ภาค ข 20</button>
-      <button class="btn" onclick="startFullMock()">🏆 Mock 100</button>
+      <button class="btn" onclick="startFullMock()">🏆 Mock 200</button>
       <button class="btn good" onclick="showScreen('interview',document.querySelector('[data-screen=&quot;interview&quot;]'))">🎤 ภาค ค</button>
     </div>
   </div>
@@ -112,7 +112,7 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
   </div>
   <div class="section-title"><h3>ภารกิจวันนี้</h3><span class="badge" id="dailyBadge">0/20</span></div>
   <div class="card quest">
-    <div class="ico">🎯</div><div style="flex:1"><b>Daily 20</b><div class="muted">ทำข้อสอบคละภาค ก + ภาค ข ให้ครบ 20 ข้อวันนี้</div><div class="progress" style="margin-top:9px"><i id="dailyBar" style="width:0%"></i></div></div>
+    <div class="ico">🎯</div><div style="flex:1"><b>Daily 20</b><div class="muted">ฝึกข้อสอบที่มีในคลังให้ครบ 20 ข้อวันนี้</div><div class="progress" style="margin-top:9px"><i id="dailyBar" style="width:0%"></i></div></div>
     <button class="btn ghost" onclick="startQuick(20)">เริ่ม</button>
   </div>
   <div class="section-title"><h3>เลือกสนามสอบ</h3><span class="muted tiny" id="bankCount"></span></div>
@@ -121,19 +121,19 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
   <div class="section-title"><h3>สนามจำลอง</h3><span class="badge">ตรงโครงสอบ</span></div>
   <div class="grid">
     <div class="card exam-card">
-      <h3>🟦 Boss ภาค ก 50</h3>
-      <p class="muted">สุ่มจากความรู้ทั่วไป กฎหมาย นโยบาย ข่าว และอุบล</p>
+      <h3>🟦 Boss ภาค ก</h3>
+      <p class="muted">เตรียมคลังใหม่: คิดวิเคราะห์ 100 คะแนน • ภาษาอังกฤษ 50 คะแนน • ข้าราชการที่ดี 50 คะแนน</p>
       <button class="btn primary" onclick="startPartBoss('A')">เริ่มภาค ก</button>
     </div>
     <div class="card exam-card">
-      <h3>🟧 Boss ภาค ข 50</h3>
-      <p class="muted">สุ่มเฉพาะวิชาเอกประถมศึกษา</p>
+      <h3>🟧 Boss ภาค ข</h3>
+      <p class="muted">วิชาเอกประถมศึกษาและความรู้ทั่วไปเกี่ยวกับการจัดการเรียนรู้/กฎหมายการศึกษา</p>
       <button class="btn orange" onclick="startPartBoss('B')">เริ่มภาค ข</button>
     </div>
     <div class="card exam-card mock" style="grid-column:1/-1">
-      <h3>🏆 Mock Exam 100</h3>
-      <p class="muted">ภาค ก 50 ข้อ + ภาค ข 50 ข้อ • เรียงตามสนามจริง</p>
-      <button class="btn primary" onclick="startFullMock()">เริ่มสอบจำลอง 100 ข้อ</button>
+      <h3>🏆 Mock Exam ครูผู้ช่วย</h3>
+      <p class="muted">ภาค ก 200 คะแนน • ภาค ข 200 คะแนน • ต้องได้อย่างน้อย 120/200 ในแต่ละภาค</p>
+      <button class="btn primary" onclick="startFullMock()">เริ่มสอบจำลอง</button>
     </div>
   </div>
 </section>
@@ -175,7 +175,7 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
   </div>
   <div class="grid" style="margin-top:16px">
     <div class="card"><div class="muted">เกณฑ์ที่เห็นในประกาศ</div><div class="stat">3 ด้าน</div></div>
-    <div class="card"><div class="muted">คะแนนที่เห็นในภาพ</div><div class="stat">30 คะแนน</div></div>
+    <div class="card"><div class="muted">คะแนนตามเอกสารที่ส่งมา</div><div class="stat">รอตรวจเกณฑ์</div></div>
   </div>
   <div class="section-title"><h3>โจทย์ซ้อมสัมภาษณ์</h3><span class="muted tiny">แตะ “ดูแนวคิด” เมื่ออยากเช็ก</span></div>
   <div id="interviewList"></div>
@@ -194,8 +194,9 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
     <p class="muted tiny">Boss และ Mock จะสุ่มเฉพาะข้อที่มี ✅ หรือ 📜 และไม่มี ⚠️</p>
   </div>
 
+  <div class="content-note" style="margin-bottom:16px"><b>ฉบับปรับโครงสร้าง:</b> ตัดคลังข้อสอบพนักงานราชการ ข่าว และข้อมูลเฉพาะเขตเดิมออกแล้ว เหลือเฉพาะคลังเอกประถมศึกษา 188 ข้อที่นำกลับมาใช้ได้ก่อน ส่วนข้อสอบภาค ก และเนื้อหาทั่วไปภาค ข จะเพิ่มเป็นชุดใหม่หลังตรวจสอบแหล่งอ้างอิง</div>
   <div class="stage-list" style="margin-bottom:16px">
-    <details class="stage source-pack">
+    <details class="stage source-pack" hidden>
       <summary><div class="stage-ico" style="background:#eef2ff">📜</div><div class="stage-main"><div class="stage-title">ระเบียบพนักงานราชการ พ.ศ. 2547</div><div class="stage-sub">ตัวบทหลัก + ฉบับแก้ไข • ตรวจแหล่งทางการ</div></div><span class="chev">⌄</span></summary>
       <div class="stage-body">
         <div class="trustline"><span class="trustchip trust-law">📜 ตัวบทกฎหมาย</span><span class="trustchip trust-verified">✅ ตรวจแล้ว</span></div>
@@ -210,7 +211,7 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
       </div>
     </details>
 
-    <details class="stage source-pack">
+    <details class="stage source-pack" hidden>
       <summary><div class="stage-ico" style="background:#e9f7ef">🧾</div><div class="stage-main"><div class="stage-title">สิทธิประโยชน์พนักงานราชการ</div><div class="stage-sub">พ.ศ. 2554 + ฉบับแก้ไขล่าสุดที่ตรวจถึงฉบับที่ 4 พ.ศ. 2566</div></div><span class="chev">⌄</span></summary>
       <div class="stage-body">
         <div class="trustline"><span class="trustchip trust-law">📜 ประกาศ คพร.</span><span class="trustchip trust-verified">✅ ตรวจแล้ว</span></div>
@@ -225,7 +226,7 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
       </div>
     </details>
 
-    <details class="stage source-pack">
+    <details class="stage source-pack" hidden>
       <summary><div class="stage-ico" style="background:#fff5db">📣</div><div class="stage-main"><div class="stage-title">นโยบายการศึกษา 2569</div><div class="stage-sub">ไฟล์สรุปอัปเดต ณ 5 มิ.ย. 2569 • ต้องระวังข้อมูลตามเวลา</div></div><span class="chev">⌄</span></summary>
       <div class="stage-body">
         <div class="trustline"><span class="trustchip trust-time">🕒 ข้อมูลตามเวลา</span></div>
@@ -234,7 +235,7 @@ button,input,select{font:inherit}.app{max-width:980px;margin:auto;min-height:100
       </div>
     </details>
 
-    <details class="stage source-pack">
+    <details class="stage source-pack" hidden>
       <summary><div class="stage-ico" style="background:#f1ecff">🎤</div><div class="stage-main"><div class="stage-title">คลังสัมภาษณ์ ภาค ค.</div><div class="stage-sub">คู่มือฉบับปรับปรุง 22 ส.ค. 2569 • มีตัวอย่างแนวคำถาม 100 คำถาม</div></div><span class="chev">⌄</span></summary>
       <div class="stage-body">
         <p class="muted">ใช้เป็น “กรอบความคิด” ไม่ท่องคำตอบตรง ๆ เน้นบุคลิก ทัศนคติ การดูแลผู้เรียน การแก้ปัญหา การทำงานร่วมกับผู้อื่น จรรยาบรรณ เทคโนโลยี/AI และความปลอดภัยในสถานศึกษา</p>
@@ -358,10 +359,10 @@ function trustedPartAPool(){return partAPool().filter(isExamTrusted)}
 function trustedPartBPool(){return partBPool().filter(isExamTrusted)}
 
 function isPartB(q){
-  return !q.legacy && q.category && q.category.startsWith('เอกประถม');
+  return !!(q.category && q.category.startsWith('เอกประถม'));
 }
 function isPartA(q){
-  return !q.legacy && !isPartB(q);
+  return false; // คลังภาค ก ชุดเดิมถูกถอดออก ต้องเพิ่มข้อสอบชุดใหม่ที่ตรวจสอบแหล่งอ้างอิงแล้ว
 }
 function partAPool(){return BANK.filter(isPartA)}
 function partBPool(){return BANK.filter(isPartB)}
@@ -372,7 +373,12 @@ function poolStats(pool){
   return {total,correct,acc:total?Math.round(correct/total*100):0};
 }
 const GROUPS={
-  'a-ubon':q=>q.category==='อุบล เขต 1'||q.category==='ข่าวปิดสนาม • อุบล',
+  'a-analysis':q=>q.category==='ภาค ก • คิดวิเคราะห์',
+  'a-english':q=>q.category==='ภาค ก • ภาษาอังกฤษ',
+  'a-civil':q=>q.category==='ภาค ก • ข้าราชการที่ดี',
+  'b-pedagogy':q=>q.category==='ภาค ข • การจัดการเรียนรู้',
+  'b-education-law':q=>q.category==='ภาค ข • กฎหมายการศึกษา',
+  'a-ubon':q=>false,
   'a-news':q=>isCurrentAffairs(q),
   'a-policy':q=>q.category==='นโยบาย/บุคคลสำคัญ',
   'a-law':q=>q.category==='กฎหมาย/วิชาชีพครู',
@@ -406,10 +412,10 @@ function startPartBoss(part){
 }
 function startFullMock(){
   const ap=trustedPartAPool(), bp=trustedPartBPool();
-  if(ap.length<50||bp.length<50){toast('ข้อที่ตรวจแล้วสำหรับ Mock ยังไม่ครบ 50+50');return}
+  if(ap.length<50||bp.length<50){toast('คลังข้อสอบชุดใหม่ยังไม่ครบสำหรับ Mock เต็มรูปแบบ');return}
   const a=sample(ap,50);
   const b=sample(bp,50);
-  startSession([...a,...b],'mock','Mock 100 • ภาค ก 50 + ภาค ข 50',120);
+  startSession([...a,...b],'mock','Mock ครูผู้ช่วย • ภาค ก + ภาค ข',120);
   session.fullMock=true;
 }
 
@@ -423,7 +429,7 @@ function renderDashboard(){
   document.getElementById('accStat').textContent=acc;
   document.getElementById('dailyBadge').textContent=`${Math.min(state.dailyCount||0,20)}/20`;
   document.getElementById('dailyBar').style.width=`${Math.min((state.dailyCount||0)/20*100,100)}%`;
-  document.getElementById('bankCount').textContent=`คลัง ${BANK.length} ข้อ • พร้อมสอบยืนยัน ${BANK.filter(isExamTrusted).length} ข้อ`;
+  document.getElementById('bankCount').textContent=`คลัง ${BANK.length} ข้อ • เอกประถมศึกษา ${BANK.length} ข้อ`;
   document.getElementById('xpStat').textContent=state.xp;
   document.getElementById('correctStat').textContent=state.correct;
   document.getElementById('incorrectStat').textContent=state.incorrect;
@@ -435,24 +441,23 @@ function renderCategories(){
   const em=document.getElementById('categoryCards'); if(!em)return;
   const a=partAPool(), b=partBPool(), sa=poolStats(a), sb=poolStats(b);
   const aGroups=[
-    ['a-ubon','🌼','อุบลราชธานี / สพป.อุบล 1'],
-    ['a-news','📰','เหตุการณ์ปัจจุบัน • ข่าวปิดสนาม'],
-    ['a-policy','📣','นโยบาย / บุคคลสำคัญ'],
-    ['a-law','⚖️','กฎหมาย / วิชาชีพครู'],
-    ['a-employee','📋','ระเบียบพนักงานราชการ'],
-    ['a-general','🧠','ความรู้ทั่วไป']
+    ['a-analysis','🧠','ความสามารถในการคิดวิเคราะห์'],
+    ['a-english','🇬🇧','ภาษาอังกฤษ'],
+    ['a-civil','⚖️','ความรู้และลักษณะการเป็นข้าราชการที่ดี']
   ];
   const bGroups=[
-    ['b-thai','🔤','ภาษาไทย'],
-    ['b-math','➗','คณิตศาสตร์'],
-    ['b-sci','🔬','วิทยาศาสตร์'],
-    ['b-social','🌏','สังคม / ศาสนา / ประวัติศาสตร์'],
-    ['b-eng','🇬🇧','ภาษาอังกฤษ'],
-    ['b-child','🧒','จิตวิทยา / พัฒนาการเด็ก'],
-    ['b-curriculum','📚','หลักสูตร / การจัดการเรียนรู้'],
-    ['b-assess','🧪','วัดผล / วิจัยในชั้นเรียน'],
-    ['b-prof','👩‍🏫','วิชาชีพครู / พื้นฐานวิชาชีพ'],
-    ['b-art','🎨','ศิลปะ / การงาน / เทคโนโลยี']
+    ['b-thai','🔤','เอกประถมศึกษา • ภาษาไทย'],
+    ['b-math','➗','เอกประถมศึกษา • คณิตศาสตร์'],
+    ['b-sci','🔬','เอกประถมศึกษา • วิทยาศาสตร์'],
+    ['b-social','🌏','เอกประถมศึกษา • สังคมศึกษา'],
+    ['b-eng','🇬🇧','เอกประถมศึกษา • ภาษาอังกฤษ'],
+    ['b-child','🧒','เอกประถมศึกษา • พัฒนาการเด็ก'],
+    ['b-curriculum','📚','เอกประถมศึกษา • หลักสูตร/การสอน'],
+    ['b-assess','🧪','เอกประถมศึกษา • วัดผล/วิจัย'],
+    ['b-prof','👩‍🏫','เอกประถมศึกษา • วิชาชีพครู'],
+    ['b-art','🎨','เอกประถมศึกษา • ศิลปะ/เทคโนโลยี'],
+    ['b-pedagogy','📝','ความรู้ทั่วไปเกี่ยวกับการจัดการเรียนรู้'],
+    ['b-education-law','⚖️','กฎหมายและการปฏิรูปการศึกษา']
   ];
   const renderOpts=(groups)=>groups.map(g=>{
     const n=groupPool(g[0]).length;
@@ -462,7 +467,7 @@ function renderCategories(){
     <details class="stage">
       <summary>
         <div class="stage-ico" style="background:#eaf1ff">🟦</div>
-        <div class="stage-main"><div class="stage-title">ภาค ก. ความรู้ความสามารถทั่วไป</div><div class="stage-sub">${a.length} ข้อ • ความแม่นยำรวม ${sa.acc}% • คะแนนสอบ 50</div></div>
+        <div class="stage-main"><div class="stage-title">ภาค ก. ความรู้ความสามารถทั่วไป</div><div class="stage-sub">${a.length} ข้อ • ความแม่นยำรวม ${sa.acc}% • คะแนนเต็ม 200 • เกณฑ์ผ่าน 120</div></div>
         <span class="chev">⌄</span>
       </summary>
       <div class="stage-body">
@@ -473,7 +478,7 @@ function renderCategories(){
     <details class="stage">
       <summary>
         <div class="stage-ico" style="background:#fff0df">🟧</div>
-        <div class="stage-main"><div class="stage-title">ภาค ข. วิชาเอกประถมศึกษา</div><div class="stage-sub">${b.length} ข้อ • ความแม่นยำรวม ${sb.acc}% • คะแนนสอบ 50</div></div>
+        <div class="stage-main"><div class="stage-title">ภาค ข. วิชาเอกประถมศึกษา</div><div class="stage-sub">${b.length} ข้อ • ความแม่นยำรวม ${sb.acc}% • คะแนนเต็ม 200 • เกณฑ์ผ่าน 120</div></div>
         <span class="chev">⌄</span>
       </summary>
       <div class="stage-body">
@@ -555,7 +560,7 @@ function renderMedals(){
   e.innerHTML=medalData().map(m=>`<span class="badge" style="opacity:${m[2]?1:.28};font-size:14px">${m[0]} ${m[1]}</span>`).join('');
   const l=document.getElementById('levelBadge'); if(l)l.textContent='Level '+levelFor(state.xp);
 }
-function startMock(n){startSession(sample(BANK.filter(q=>!q.legacy),n),'mock','Boss Exam '+n, n===50?60:90)}
+function startMock(n){startSession(sample(partBPool(),n),'mock','ฝึกเอกประถม '+n, n===50?60:90)}
 function startSession(qs,mode,title,minutes=0){
   if(!qs.length){toast('หมวดนี้ยังไม่มีข้อสอบ');return}
   session={qs,mode,title,index:0,answers:{},marked:{},started:Date.now(),minutes,remaining:minutes*60};
